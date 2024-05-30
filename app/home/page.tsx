@@ -2,10 +2,13 @@
 
 import Loader from '@/components/Loader'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
+
   useEffect(() => {
     setIsClient(true)
   }, [])
@@ -34,6 +37,7 @@ const Home = () => {
             </li>
           </ul>
         </div>
+
         <section id="home">
           <h2>Full Page Scroll</h2>
         </section>

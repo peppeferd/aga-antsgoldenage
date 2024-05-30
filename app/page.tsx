@@ -15,9 +15,28 @@ export default function Home() {
       router.push('/home')
     }, 5001)
   }, [])
-  if (show) return <div className=" bg-white"></div>
+  if (show)
+    return (
+      <div className="flex h-screen w-screen bg-black overflow-y-hidden">
+        <Image
+          src="https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmaxeN9dtMtMqgBCpVDq6e4NQpHky2NNmAVVYHxiNZ3vsP"
+          width={500}
+          height={500}
+          alt="initialLoading"
+          className="m-auto mb-[930vh] block rounded-lg"
+        />
+      </div>
+    )
   else
     return (
-      <main className="flex  flex-col items-center justify-between p-24"></main>
+      <div className="flex h-screen w-screen bg-black overflow-y-hidden">
+        <Image
+          src="https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmaxeN9dtMtMqgBCpVDq6e4NQpHky2NNmAVVYHxiNZ3vsP"
+          width={500}
+          height={500}
+          alt="initialLoading"
+          className="m-auto mb-[930vh] block rounded-lg"
+        />
+      </div>
     )
 }
