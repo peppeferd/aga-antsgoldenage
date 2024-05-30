@@ -105,7 +105,7 @@ section {
   justify-content: center;
   font-size: 1rem;
   background-color: #f4f4f4;
-  background-image: url(https://i.postimg.cc/15R3qZR2/london-3841024-1920.jpg);
+  background-image: url(https://t3.ftcdn.net/jpg/01/44/86/46/360_F_144864656_yfNDNmeMSaTHIJFLYBq9GtRgjiFeBc10.jpg);
   background-size: cover;
   scroll-snap-align: center;
 }
@@ -122,7 +122,7 @@ section h2 {
   user-select: none;
 }
 section:nth-child(2) {
-  background-image: url(https://i.postimg.cc/y8dxwCwc/balloons-388973-960-720.jpg);
+  background-image: url(https://i.pinimg.com/736x/91/9c/57/919c5719579d855d1fa9e1c128a80d64.jpg);
 }
 section:nth-child(3) {
   background-image: url(https://i.postimg.cc/bYWmGqRN/2.jpg);
