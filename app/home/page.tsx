@@ -1,10 +1,8 @@
 'use client'
 
 import Loader from '@/components/Loader'
-import Image from 'next/image'
-import { useRouter } from 'next/navigation'
+
 import React, { useEffect, useState } from 'react'
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
