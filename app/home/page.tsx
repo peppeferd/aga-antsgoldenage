@@ -111,13 +111,13 @@ const Home = () => {
           <h3 className="bg-yellow-200">Ants' Golden Age</h3>
         </section>
         <section id="story">
-          <h3>Story Section</h3>
+          <h3 className="bg-yellow-200">Story Section</h3>
         </section>
         <section id="about">
-          <h3>About Section</h3>
+          <h3 className="bg-yellow-200">About Section</h3>
         </section>
         <section id="whoweare">
-          <h3>Who we are</h3>
+          <h3 className="bg-yellow-200">Who we are</h3>
         </section>
       </div>
     </>
