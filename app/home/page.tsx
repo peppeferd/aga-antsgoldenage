@@ -24,31 +24,31 @@ const Home = () => {
     )
   return (
     <>
-      <div className="smooth">
+      <div className="smooth bg-[url('https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmTHopKcLJJQaBiDsGGzJ8uVgjpUpnMyb6PYoLMxd4Rrxj')]">
         <div
-          className={`classenav bg-transparent sticky flex justify-evenly  xl:text-xl md:text-xs items-center h-20 px-4 text-green-200 shadow-xl saliindex ${
+          className={`classenav bg-transparent sticky flex justify-evenly  xl:text-xl md:text-xs items-center h-20 px-4 text-yellow-200 shadow-xl saliindex ${
             visible ? 'top-0' : ''
           } `}
         >
           {/* Logo */}
 
-          <h1 className="bg-slate-800 rounded-full p-3 text-xl font-bold text-green-200 cursor-pointer">
+          <h1 className="bg-indigo-800 rounded-full p-3 text-xl font-bold text-yellow-200 cursor-pointer">
             <a href="#home">Ants' Golden Age</a>
           </h1>
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex text-xl gap-4">
-            <div className="bg-slate-800 rounded-t-lg">
+            <div className="bg-indigo-800 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
                 <a href="#story">Story</a>
               </li>
             </div>
-            <div className="bg-slate-800 rounded-t-lg">
+            <div className="bg-indigo-800 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
                 <a href="#about">About</a>
               </li>
             </div>
-            <div className="bg-slate-800 rounded-t-lg">
+            <div className="bg-indigo-800 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
                 <a href="#whoweare">Who we are</a>
               </li>
@@ -108,25 +108,17 @@ const Home = () => {
         </div>
 
         <section id="home">
-          <h2>Full Page Scroll</h2>
+          <h3 className="bg-yellow-200">Ants' Golden Age</h3>
         </section>
         <section id="story">
-          <h2>Story Section</h2>
+          <h3>Story Section</h3>
         </section>
         <section id="about">
-          <h2>About Section</h2>
+          <h3>About Section</h3>
         </section>
         <section id="whoweare">
-          <h2>Who we are</h2>
+          <h3>Who we are</h3>
         </section>
-      </div>
-      <div className="social">
-        <a
-          href="https://www.youtube.com/channel/UC8xTHK97Ng__KZvGcO_K7CA?sub_confirmation=1"
-          target="_blank"
-        >
-          Click Here For More (600+) Website and CSS Effects
-        </a>
       </div>
     </>
   )

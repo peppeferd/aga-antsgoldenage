@@ -109,20 +109,20 @@ section {
   background-size: cover;
   scroll-snap-align: center;
 }
-section h2 {
+section h3 {
   text-transform: uppercase;
   font-size: 3.25rem;
   font-weight: 900;
   padding: 0.5em 1em;
   color: #1d1e22;
-  background-color: #f4f4f4;
+  /*  background-color: #f4f4f4; */
   mix-blend-mode: screen;
   border-radius: 0.25em;
   pointer-events: none;
   user-select: none;
 }
 section:nth-child(2) {
-  background-image: url(https://i.pinimg.com/736x/91/9c/57/919c5719579d855d1fa9e1c128a80d64.jpg);
+  background-image: url(https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmTHopKcLJJQaBiDsGGzJ8uVgjpUpnMyb6PYoLMxd4Rrxj);
 }
 section:nth-child(3) {
   background-image: url(https://i.postimg.cc/bYWmGqRN/2.jpg);
