@@ -2,16 +2,11 @@
 
 import Loader from '@/components/Loader'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-import { FaPeopleGroup, FaRegMessage } from 'react-icons/fa6'
-import { BsFileEarmarkText } from 'react-icons/bs'
-import { GiLongAntennaeBug } from 'react-icons/gi'
 import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
-
-  let [open, setOpen] = useState(false)
   const [nav, setNav] = useState(false)
   const [visible, setVisible] = useState(true)
   const router = useRouter()
@@ -45,17 +40,17 @@ const Home = () => {
           <ul className="hidden md:flex text-xl gap-4">
             <div className="bg-slate-800 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
-                <a href="#about">about</a>
+                <a href="#story">Story</a>
               </li>
             </div>
             <div className="bg-slate-800 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
-                <a href="#price">price</a>
+                <a href="#about">About</a>
               </li>
             </div>
             <div className="bg-slate-800 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
-                <a href="#contact">contact</a>
+                <a href="#whoweare">Who we are</a>
               </li>
             </div>
           </ul>
@@ -90,7 +85,7 @@ const Home = () => {
                 onClick={handleNav}
                 className="flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
               >
-                <a href="#about">about</a>
+                <a href="#story">Story</a>
               </li>
             </div>
             <div className="ml-4 mb-4 bg-slate-800 w-fit rounded-full">
@@ -98,7 +93,7 @@ const Home = () => {
                 onClick={handleNav}
                 className=" flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
               >
-                <a href="#price">price</a>
+                <a href="#about">About</a>
               </li>
             </div>
             <div className="ml-4 mb-4 bg-slate-800 w-fit rounded-full">
@@ -106,7 +101,7 @@ const Home = () => {
                 onClick={handleNav}
                 className=" flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
               >
-                <a href="#contact">contact</a>
+                <a href="#whoweare">Who we are</a>
               </li>
             </div>
           </ul>
@@ -115,14 +110,14 @@ const Home = () => {
         <section id="home">
           <h2>Full Page Scroll</h2>
         </section>
+        <section id="story">
+          <h2>Story Section</h2>
+        </section>
         <section id="about">
           <h2>About Section</h2>
         </section>
-        <section id="price">
-          <h2>Price Section</h2>
-        </section>
-        <section id="contact">
-          <h2>Contact Section</h2>
+        <section id="whoweare">
+          <h2>Who we are</h2>
         </section>
       </div>
       <div className="social">
