@@ -58,7 +58,7 @@ const Home = () => {
           {/* Mobile Navigation Icon */}
           <div
             onClick={handleNav}
-            className="block md:hidden text-green-200 bg-slate-800 p-3 rounded-full"
+            className="block md:hidden text-yellow-200 bg-indigo-800 p-3 rounded-full"
           >
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
           </div>
