@@ -6,6 +6,8 @@ import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import digitalcoachlogo from '../../public/Digitalcoach.webp'
+import { IoNewspaperOutline } from 'react-icons/io5'
+import { FaPeopleGroup } from 'react-icons/fa6'
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
   const [nav, setNav] = useState(false)
@@ -41,7 +43,12 @@ const Home = () => {
           <ul className="hidden md:flex text-xl gap-4">
             <div className="bg-indigo-800 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
-                <a href="#story">Story</a>
+                <a href="#story">
+                  <div className="flex flex-row">
+                    <IoNewspaperOutline className="my-auto mr-1" />
+                    <h1>Story</h1>
+                  </div>
+                </a>
               </li>
             </div>
             <div className="bg-indigo-800 rounded-t-lg">
@@ -51,7 +58,12 @@ const Home = () => {
             </div>
             <div className="bg-indigo-800 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
-                <a href="#whoweare">Who we are</a>
+                <a href="#whoweare">
+                  <div className="flex flex-row">
+                    <FaPeopleGroup className="my-auto mr-1" />
+                    <h1>Who we are</h1>
+                  </div>
+                </a>
               </li>
             </div>
           </ul>
@@ -86,7 +98,12 @@ const Home = () => {
                 onClick={handleNav}
                 className="flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
               >
-                <a href="#story">Story</a>
+                <a href="#story">
+                  <div className="flex flex-row">
+                    <IoNewspaperOutline className="my-auto mr-1" />
+                    <h1>Story</h1>
+                  </div>
+                </a>
               </li>
             </div>
             <div className="ml-4 mb-4 bg-indigo-800 w-fit rounded-full">
@@ -102,7 +119,12 @@ const Home = () => {
                 onClick={handleNav}
                 className=" flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
               >
-                <a href="#whoweare">Who we are</a>
+                <a href="#whoweare">
+                  <div className="flex flex-row">
+                    <FaPeopleGroup className="my-auto mr-1" />
+                    <h1>Who we are</h1>
+                  </div>
+                </a>
               </li>
             </div>
           </ul>
@@ -281,7 +303,7 @@ const Home = () => {
             <h1 className=" bg-indigo-800 text-5xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Who we are
             </h1>
-            <div className="flex flex-wrap justify-evenly">
+            <div className="flex flex-wrap gap-10 justify-evenly">
               <div>
                 <h1 className="w-96 p-10 rounded-lg bg-indigo-800 text-yellow-200 text-2xl font-base">
                   We are young and motivated people from Digital Coach®.{' '}
