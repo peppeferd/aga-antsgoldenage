@@ -114,11 +114,11 @@ const Home = () => {
           </h3>
         </section>
         <section id="story">
-          <div className="flex flex-col mt-28">
-            <h1 className=" bg-indigo-800 text-3xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
+          <div className="flex flex-col mt-[110px]">
+            <h1 className=" bg-indigo-800 text-2xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Story of A.G.A
             </h1>
-            <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
+            <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
               It was 13,7 years ago when a massive explosion created the
               universe as we know it and with it billions of life beings, even
               complex and simple. Beetwen them the dinosaurs and then, the man
@@ -135,7 +135,7 @@ const Home = () => {
                 />
               </div>
               <div>
-                <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl  text-lg">
+                <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl  text-base">
                   {' '}
                   The man with his arrogance put himself at the top of food
                   chain, dominating all other species and most of all,
@@ -147,7 +147,7 @@ const Home = () => {
                   alien civilitation are of "Kind 1", "Kind 2", "Kind 3" and so
                   on.
                 </h1>{' '}
-                <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
+                <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
                   Kind 0: They are able to use only a fraction of the total
                   energy available on earth. Kind 1: Civilitation that is able
                   to utilize all energy available on their origin planet. Kind
