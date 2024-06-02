@@ -66,7 +66,7 @@ const Home = () => {
                 </a>
               </li>
             </div>
-            <div className="bg-indigo-300 rounded-full p-1 cursor-pointer">
+            <div className="bg-indigo-300 rounded-full p-1">
               <li>
                 <a href="https://discord.com/" target="_blank">
                   <div>
@@ -143,7 +143,7 @@ const Home = () => {
               >
                 <a href="https://discord.com/" target="_blank">
                   <div>
-                    <FaDiscord size={30} className="mt-1" />
+                    <FaDiscord className="my-auto mr-1" />
                   </div>
                 </a>
               </li>
@@ -164,8 +164,8 @@ const Home = () => {
             <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
               It was 13,7 years ago when a massive explosion created the
               universe as we know it and with it billions of life beings, even
-              complex and simple. <br />
-              Beetwen them the dinosaurs and then, the man on earth.
+              complex and simple.
+              <br /> Beetwen them the dinosaurs and then, the man on earth.
             </h1>
             <div className="lg:grid lg:grid-cols-2 flex flex-col">
               <div>
@@ -184,6 +184,7 @@ const Home = () => {
                   chain, dominating all other species and most of all,
                   ignorating nature.
                   <br />
+                  <br />
                   But in the universe, according to Kardašëv ladder, the alien
                   civilitations have different evolution rank: human being can
                   be classified as "Kind 0", and then all other more evolved
@@ -193,13 +194,14 @@ const Home = () => {
                 <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
                   Kind 0: They are able to use only a fraction of the total
                   energy available on earth. Kind 1: Civilitation that is able
-                  to utilize all energy available on their origin planet. Kind
-                  2: Civilitation able to utilize all energy coming from the
-                  star on their planet system of origin Kind 3: Civilitation
-                  able to utilize all energy available on their galaxy Beetween
-                  the last there are the Cyber-Ants, known even with
-                  nomenclature "Formicidae Cyber Sapiens" or "C-A 42/1976" ad
-                  identifier of their galaxy of origin, Orion.
+                  to utilize all energy available on their origin planet.
+                  <br />
+                  <br /> Kind 2: Civilitation able to utilize all energy coming
+                  from the star on their planet system of origin Kind 3:
+                  Civilitation able to utilize all energy available on their
+                  galaxy Beetween the last there are the Cyber-Ants, known even
+                  with nomenclature "Formicidae Cyber Sapiens" or "C-A 42/1976"
+                  ad identifier of their galaxy of origin, Orion.
                 </h1>
               </div>
             </div>
@@ -212,9 +214,8 @@ const Home = () => {
             evoltion extremely complex and low, but inexorably infallible.
             <br /> This peculiarity made them a very long-lived specie and with
             some paranoic traits, just bacause of their way to lead and drive
-            their destiny based alwasy more on a dominant tecnology.
-            <br />
-            <br /> From them there are actually very few informations, most of
+            their destiny based alwasy more on a dominant tecnology. <br />
+            From them there are actually very few informations, most of
             documents are being secretated.
           </h1>
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col mb-2">
@@ -231,18 +232,17 @@ const Home = () => {
                 1900. A biologist "Richard Brown" found a supernatural ant. It
                 seemed it got some metallic parts integrated in its body, but
                 the ant were extremely more fast and succeded to not get traped.
-                In that period, doc. Brown's scientists were more focalized on
-                some insect species in Arizona. <br />
-                He succeded to get other informations until when, with a clever
-                stratagem, he trapped one of these ants. It spent many months
-                writing in his research diary. The ant seemed to answer to human
-                language with sending sounds, but it let others understand
-                clearly.
+                In that period, doc.
                 <br />
-                <br /> Unlucky during an hot and muggy summer night, a big fire
-                blazed up in his home. All of his researches were destroyed and
-                himself also. Of the ant it had not other informations from
-                then.
+                <br /> Brown's scientists were more focalized on some insect
+                species in Arizona. He succeded to get other informations until
+                when, with a clever stratagem, he trapped one of these ants. It
+                spent many months writing in his research diary. The ant seemed
+                to answer to human language with sending sounds, but it let
+                others understand clearly. <br />
+                Unlucky during an hot and muggy summer night, a big fire blazed
+                up in his home. All of his researches were destroyed and himself
+                also. Of the ant it had not other informations from then.
               </h1>
             </div>
             <div className="flex flex-col mt-11">
@@ -275,14 +275,13 @@ const Home = () => {
                 cultures went increasing.
                 <br /> The pollution were always more present in everyday life,
                 the geopolitical assets were totally unstable, continue wars,
-                too much consumisn, the planet seemed to suffer.
-                <br /> After pandemic of coronavirus, mankind seemed going on
-                the right path, but it was just an illusion lasted a decade.{' '}
-                <br />
-                The war restarted and every nation made their own interest,
-                don't taking care of negative effectives on climate and earth.
-                The comunication between the different presidents were
-                inexistent, it should had been final sentence.
+                too much consumisn, the planet seemed to suffer. <br />
+                After pandemic of coronavirus, mankind seemed going on the right
+                path, but it was just an illusion lasted a decade.
+                <br /> The war restarted and every nation made their own
+                interest, don't taking care of negative effectives on climate
+                and earth. The comunication between the different presidents
+                were inexistent, it should had been final sentence.
               </h1>
             </div>{' '}
             <div>
@@ -293,11 +292,13 @@ const Home = () => {
                 In origin it was a very big massive explosion and following
                 other 50 nuclear explosions.
                 <br /> A chain of fallout destroyed a big part of mankind as we
-                known it. The human population were literally decreased from an
-                half, most rich nations became poor, while poor nations seemed
-                to have a more fast recovery. Everything started with a little
-                female children living in a no more prosperus land that were
-                playing with a paper airplane.
+                known it. <br />
+                The human population were literally decreased from an half, most
+                rich nations became poor, while poor nations seemed to have a
+                more fast recovery.
+                <br /> Everything started with a little female children living
+                in a no more prosperus land that were playing with a paper
+                airplane.
                 <br /> Running she falled down and the airplane flyed away from
                 her hands arriving in a valley. <br />
                 <br />
