@@ -35,13 +35,13 @@ const Home = () => {
         >
           {/* Logo */}
 
-          <h1 className="bg-indigo-800 rounded-full p-3 text-xl font-bold text-yellow-200 cursor-pointer">
+          <h1 className="bg-indigo-300 rounded-full p-3 text-xl font-bold text-yellow-100 cursor-pointer">
             <a href="#home">Ants' Golden Age</a>
           </h1>
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex text-xl gap-4">
-            <div className="bg-indigo-800 rounded-t-lg">
+            <div className="bg-indigo-300 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
                 <a href="#story">
                   <div className="flex flex-row">
@@ -51,12 +51,12 @@ const Home = () => {
                 </a>
               </li>
             </div>
-            <div className="bg-indigo-800 rounded-t-lg">
+            <div className="bg-indigo-300 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
                 <a href="#about">About</a>
               </li>
             </div>
-            <div className="bg-indigo-800 rounded-t-lg">
+            <div className="bg-indigo-300 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
                 <a href="#whoweare">
                   <div className="flex flex-row">
@@ -71,7 +71,7 @@ const Home = () => {
           {/* Mobile Navigation Icon */}
           <div
             onClick={handleNav}
-            className="block md:hidden text-yellow-200 bg-indigo-800 p-3 rounded-full"
+            className="block md:hidden text-yellow-100 bg-indigo-300 p-3 rounded-full"
           >
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
           </div>
@@ -86,14 +86,14 @@ const Home = () => {
           >
             <h1
               onClick={handleNav}
-              className="w-fit p-4 text-3xl font-bold text-yellow-200 mx-auto rounded-full cursor-pointer bg-indigo-800"
+              className="w-fit p-4 text-3xl font-bold text-yellow-100 mx-auto rounded-full cursor-pointer bg-indigo-300"
             >
               <a href="#home">A.G.A</a>
             </h1>
 
             {/* Mobile Navigation Items */}
 
-            <div className="ml-4 mb-4 bg-indigo-800 w-fit rounded-full">
+            <div className="ml-4 mb-4 bg-indigo-300 w-fit rounded-full">
               <li
                 onClick={handleNav}
                 className="flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
@@ -106,7 +106,7 @@ const Home = () => {
                 </a>
               </li>
             </div>
-            <div className="ml-4 mb-4 bg-indigo-800 w-fit rounded-full">
+            <div className="ml-4 mb-4 bg-indigo-300 w-fit rounded-full">
               <li
                 onClick={handleNav}
                 className=" flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
@@ -114,7 +114,7 @@ const Home = () => {
                 <a href="#about">About</a>
               </li>
             </div>
-            <div className="ml-4 mb-4 bg-indigo-800 w-fit rounded-full">
+            <div className="ml-4 mb-4 bg-indigo-300 w-fit rounded-full">
               <li
                 onClick={handleNav}
                 className=" flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
