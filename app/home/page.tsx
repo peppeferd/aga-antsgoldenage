@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-
+import digitalcoachlogo from '../../public/Digitalcoach.webp'
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
   const [nav, setNav] = useState(false)
@@ -277,7 +277,29 @@ const Home = () => {
           <h3 className="bg-yellow-200">About Section</h3>
         </section>
         <section id="whoweare">
-          <h3 className="bg-yellow-200">Who we are</h3>
+          <div className="flex flex-col mt-[110px]">
+            <h1 className=" bg-indigo-800 text-5xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
+              Who we are
+            </h1>
+            <div className="flex flex-wrap justify-evenly">
+              <div>
+                <h1 className="w-96 p-10 rounded-lg bg-indigo-800 text-yellow-200 text-2xl font-base">
+                  We are young and motivated people from Digital Coach®.{' '}
+                  <br></br>
+                  We do believe in the power of blockchain and willing to help
+                  the world knowing this too, for good things to come.
+                </h1>
+              </div>
+              <div className="my-auto rounded-lg bg-white p-10">
+                <Image
+                  src={digitalcoachlogo}
+                  width={200}
+                  height={200}
+                  alt="logodigitalcoach"
+                />
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </>
