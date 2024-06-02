@@ -133,6 +133,12 @@ section:nth-child(4) {
 section:nth-child(5) {
   background-image: url(https://img.freepik.com/premium-photo/cybernetic-ant-colony-with-mechanical-precision-artificial-ants-working-harmony_1007506-8892.jpg);
 }
+section:nth-child(6) {
+  background-image: url(https://img.freepik.com/premium-photo/cybernetic-ant-colony-with-mechanical-precision-artificial-ants-working-harmony_1007506-8892.jpg);
+}
+section:nth-child(7) {
+  background-image: url(https://img.freepik.com/premium-photo/cybernetic-ant-colony-with-mechanical-precision-artificial-ants-working-harmony_1007506-8892.jpg);
+}
 .social {
   position: fixed;
   bottom: 20px;

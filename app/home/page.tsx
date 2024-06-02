@@ -268,6 +268,12 @@ const Home = () => {
         <section id="about">
           <h3 className="bg-yellow-200">About Section</h3>
         </section>
+        <section>
+          <h3 className="bg-yellow-200">About Section</h3>
+        </section>
+        <section>
+          <h3 className="bg-yellow-200">About Section</h3>
+        </section>
         <section id="whoweare">
           <h3 className="bg-yellow-200">Who we are</h3>
         </section>
