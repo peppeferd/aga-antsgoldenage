@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import digitalcoachlogo from '../../public/Digitalcoach.webp'
 import { IoNewspaperOutline } from 'react-icons/io5'
-import { FaPeopleGroup } from 'react-icons/fa6'
+import { FaPeopleGroup, FaDiscord } from 'react-icons/fa6'
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
   const [nav, setNav] = useState(false)
@@ -62,6 +62,15 @@ const Home = () => {
                   <div className="flex flex-row">
                     <FaPeopleGroup className="my-auto mr-1" />
                     <h1>Who we are</h1>
+                  </div>
+                </a>
+              </li>
+            </div>
+            <div className="bg-indigo-300 rounded-full p-1 cursor-pointer">
+              <li>
+                <a href="https://discord.com/" target="_blank">
+                  <div>
+                    <FaDiscord size={30} className="mt-1" />
                   </div>
                 </a>
               </li>
@@ -123,6 +132,18 @@ const Home = () => {
                   <div className="flex flex-row">
                     <FaPeopleGroup className="my-auto mr-1" />
                     <h1>Who we are</h1>
+                  </div>
+                </a>
+              </li>
+            </div>
+            <div className="ml-4 mb-4 bg-indigo-300 w-fit rounded-full">
+              <li
+                onClick={handleNav}
+                className=" flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
+              >
+                <a href="https://discord.com/" target="_blank">
+                  <div>
+                    <FaDiscord size={30} className="mt-1" />
                   </div>
                 </a>
               </li>
