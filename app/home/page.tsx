@@ -163,7 +163,7 @@ const Home = () => {
           </div>
         </section>
         <section>
-          <h1 className="lg:mx-24 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
+          <h1 className="lg:lg:mx-16 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
             The Cyber-Ants are a civilitation of "Kind 1", extremely more
             ancient and from even not-kwown origin, they have a system on
             evoltion extremely complex and low, but inexorably infallible. This
@@ -174,11 +174,11 @@ const Home = () => {
             secretated.
           </h1>
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col mb-2">
-            <div className="flex flex-col mt-11 text-center">
-              <h1 className="mb-3 bg-indigo-800 text-2xl text-yellow-200 p-2 rounded-lg w-fit mx-auto">
+            <div className="flex flex-col mt-11">
+              <h1 className="mb-3 bg-indigo-800 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 The arrive on Earth
               </h1>
-              <h1 className="lg:mx-24 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
+              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
                 It is known as the arrive on earth following some archeological
                 studies are from about 12000 years ago. First interactions with
                 man are from that period of time, many symbols in the caves
@@ -198,11 +198,11 @@ const Home = () => {
                 informations from then.
               </h1>
             </div>
-            <div className="flex flex-col mt-11 text-center">
-              <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-2 rounded-lg w-fit mx-auto">
+            <div className="flex flex-col mt-11">
+              <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 Modern times
               </h1>
-              <h1 className="lg:mx-24 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
+              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
                 With the invention of internet, on some cospiracy forum,
                 sometime someone came out with a testimony of people telling
                 some cybernetic ants. But no one succeded to find the proofs,
@@ -224,12 +224,12 @@ const Home = () => {
           </div>
         </section>
         <section>
-          <h1 className="mt-28 bg-indigo-800 text-2xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
+          <h1 className="mt-28 bg-indigo-800 text-2xl text-yellow-200 p-1 rounded-full w-fit mx-auto">
             Year 2130
           </h1>
           <div className="grid grid-cols-2 gap-2">
             <div>
-              <h1 className="lg:mx-24 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
+              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
                 In origin it was a very big massive explosion and following
                 other 50 nuclear explosions.
                 <br /> A chain of fallout destroyed a big part of mankind as we
@@ -258,8 +258,8 @@ const Home = () => {
               <Image
                 src="https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmVrD5wiypAoRo9h2JHgLgn12HusLGAM7eXJYKnZzWTFJV"
                 alt="pichome2"
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className="lg:ml-44 lg:mt-11 rounded-lg"
               />
             </div>
