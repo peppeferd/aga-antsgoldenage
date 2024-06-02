@@ -115,7 +115,7 @@ const Home = () => {
         </section>
         <section id="story">
           <div className="flex flex-col mt-28">
-            <h1 className=" bg-indigo-800 text-5xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
+            <h1 className=" bg-indigo-800 text-3xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Story of A.G.A
             </h1>
             <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
@@ -175,7 +175,7 @@ const Home = () => {
           </h1>
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col mb-2">
             <div className="flex flex-col mt-11 text-center">
-              <h1 className="mb-3 bg-indigo-800 text-5xl text-yellow-200 p-2 rounded-lg w-fit mx-auto">
+              <h1 className="mb-3 bg-indigo-800 text-2xl text-yellow-200 p-2 rounded-lg w-fit mx-auto">
                 The arrive on Earth
               </h1>
               <h1 className="lg:mx-24 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
@@ -199,7 +199,7 @@ const Home = () => {
               </h1>
             </div>
             <div className="flex flex-col mt-11 text-center">
-              <h1 className=" bg-indigo-800 mb-3 text-5xl text-yellow-200 p-2 rounded-lg w-fit mx-auto">
+              <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-2 rounded-lg w-fit mx-auto">
                 Modern times
               </h1>
               <h1 className="lg:mx-24 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-lg">
@@ -224,7 +224,7 @@ const Home = () => {
           </div>
         </section>
         <section>
-          <h1 className="mt-28 bg-indigo-800 text-5xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
+          <h1 className="mt-28 bg-indigo-800 text-2xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
             Year 2130
           </h1>
           <div className="grid grid-cols-2 gap-2">
