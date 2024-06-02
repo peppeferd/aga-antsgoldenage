@@ -164,8 +164,8 @@ const Home = () => {
             <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
               It was 13,7 years ago when a massive explosion created the
               universe as we know it and with it billions of life beings, even
-              complex and simple. Beetwen them the dinosaurs and then, the man
-              on earth.
+              complex and simple. <br />
+              Beetwen them the dinosaurs and then, the man on earth.
             </h1>
             <div className="lg:grid lg:grid-cols-2 flex flex-col">
               <div>
@@ -209,12 +209,13 @@ const Home = () => {
           <h1 className="lg:lg:mx-16 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
             The Cyber-Ants are a civilitation of "Kind 1", extremely more
             ancient and from even not-kwown origin, they have a system on
-            evoltion extremely complex and low, but inexorably infallible. This
-            peculiarity made them a very long-lived specie and with some
-            paranoic traits, just bacause of their way to lead and drive their
-            destiny based alwasy more on a dominant tecnology. From them there
-            are actually very few informations, most of documents are being
-            secretated.
+            evoltion extremely complex and low, but inexorably infallible.
+            <br /> This peculiarity made them a very long-lived specie and with
+            some paranoic traits, just bacause of their way to lead and drive
+            their destiny based alwasy more on a dominant tecnology.
+            <br />
+            <br /> From them there are actually very few informations, most of
+            documents are being secretated.
           </h1>
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col mb-2">
             <div className="flex flex-col mt-11">
@@ -223,28 +224,31 @@ const Home = () => {
               </h1>
               <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
                 It is known as the arrive on earth following some archeological
-                studies are from about 12000 years ago. First interactions with
-                man are from that period of time, many symbols in the caves
-                highlight some ants with a helmet. From then the traces were
-                lost until the first years of 1900. A biologist "Richard Brown"
-                found a supernatural ant. It seemed it got some metallic parts
-                integrated in its body, but the ant were extremely more fast and
-                succeded to not get traped. In that period, doc. Brown's
-                scientists were more focalized on some insect species in
-                Arizona. He succeded to get other informations until when, with
-                a clever stratagem, he trapped one of these ants. It spent many
-                months writing in his research diary. The ant seemed to answer
-                to human language with sending sounds, but it let others
-                understand clearly. Unlucky during an hot and muggy summer
-                night, a big fire blazed up in his home. All of his researches
-                were destroyed and himself also. Of the ant it had not other
-                informations from then.
+                studies are from about 12000 years ago.
+                <br /> First interactions with man are from that period of time,
+                many symbols in the caves highlight some ants with a helmet.
+                <br /> From then the traces were lost until the first years of
+                1900. A biologist "Richard Brown" found a supernatural ant. It
+                seemed it got some metallic parts integrated in its body, but
+                the ant were extremely more fast and succeded to not get traped.
+                In that period, doc. Brown's scientists were more focalized on
+                some insect species in Arizona. <br />
+                He succeded to get other informations until when, with a clever
+                stratagem, he trapped one of these ants. It spent many months
+                writing in his research diary. The ant seemed to answer to human
+                language with sending sounds, but it let others understand
+                clearly.
+                <br />
+                <br /> Unlucky during an hot and muggy summer night, a big fire
+                blazed up in his home. All of his researches were destroyed and
+                himself also. Of the ant it had not other informations from
+                then.
               </h1>
             </div>
             <div className="flex flex-col mt-11">
               <div>
                 <Image
-                  src="https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmVrD5wiypAoRo9h2JHgLgn12HusLGAM7eXJYKnZzWTFJV"
+                  src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmVrD5wiypAoRo9h2JHgLgn12HusLGAM7eXJYKnZzWTFJV"
                   alt="pichome2"
                   width={250}
                   height={250}
@@ -263,20 +267,22 @@ const Home = () => {
               <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl  text-base">
                 With the invention of internet, on some cospiracy forum,
                 sometime someone came out with a testimony of people telling
-                some cybernetic ants. But no one succeded to find the proofs,
-                every trying to make photos was unfocused o disturbed by
-                frequencies. So this persons' reliability was equal to zero.
-                With the world evolving and developing itself, the tensions
-                between the different cultures went increasing. The pollution
-                were always more present in everyday life, the geopolitical
-                assets were totally unstable, continue wars, too much consumisn,
-                the planet seemed to suffer. After pandemic of coronavirus,
-                mankind seemed going on the right path, but it was just an
-                illusion lasted a decade. The war restarted and every nation
-                made their own interest, don't taking care of negative
-                effectives on climate and earth. The comunication between the
-                different presidents were inexistent, it should had been final
-                sentence.
+                some cybernetic ants.
+                <br /> But no one succeded to find the proofs, every trying to
+                make photos was unfocused o disturbed by frequencies. So this
+                persons' reliability was equal to zero. With the world evolving
+                and developing itself, the tensions between the different
+                cultures went increasing.
+                <br /> The pollution were always more present in everyday life,
+                the geopolitical assets were totally unstable, continue wars,
+                too much consumisn, the planet seemed to suffer.
+                <br /> After pandemic of coronavirus, mankind seemed going on
+                the right path, but it was just an illusion lasted a decade.{' '}
+                <br />
+                The war restarted and every nation made their own interest,
+                don't taking care of negative effectives on climate and earth.
+                The comunication between the different presidents were
+                inexistent, it should had been final sentence.
               </h1>
             </div>{' '}
             <div>
