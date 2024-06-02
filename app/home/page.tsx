@@ -199,6 +199,21 @@ const Home = () => {
               </h1>
             </div>
             <div className="flex flex-col mt-11">
+              <div>
+                <Image
+                  src="https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmVrD5wiypAoRo9h2JHgLgn12HusLGAM7eXJYKnZzWTFJV"
+                  alt="pichome2"
+                  width={250}
+                  height={250}
+                  className="lg:ml-44 lg:mt-5 rounded-lg"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="grid grid-cols-2 gap-2 mt-[110px]">
+            <div className="flex flex-col">
               <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 Modern times
               </h1>
@@ -220,15 +235,11 @@ const Home = () => {
                 different presidents were inexistent, it should had been final
                 sentence.
               </h1>
-            </div>
-          </div>
-        </section>
-        <section>
-          <h1 className="mt-28 bg-indigo-800 text-2xl text-yellow-200 p-1 rounded-full w-fit mx-auto">
-            Year 2130
-          </h1>
-          <div className="grid grid-cols-2 gap-2">
+            </div>{' '}
             <div>
+              <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
+                Year 2130
+              </h1>
               <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
                 In origin it was a very big massive explosion and following
                 other 50 nuclear explosions.
@@ -253,15 +264,6 @@ const Home = () => {
                 soldier ant decided to take that proof and to take it to their
                 superiors.
               </h1>
-            </div>
-            <div>
-              <Image
-                src="https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmVrD5wiypAoRo9h2JHgLgn12HusLGAM7eXJYKnZzWTFJV"
-                alt="pichome2"
-                width={250}
-                height={250}
-                className="lg:ml-44 lg:mt-11 rounded-lg"
-              />
             </div>
           </div>
         </section>
