@@ -163,7 +163,7 @@ const Home = () => {
           </div>
         </section>
         <section>
-          <h1 className="lg:lg:mx-16 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
+          <h1 className="lg:lg:mx-16 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
             The Cyber-Ants are a civilitation of "Kind 1", extremely more
             ancient and from even not-kwown origin, they have a system on
             evoltion extremely complex and low, but inexorably infallible. This
@@ -178,7 +178,7 @@ const Home = () => {
               <h1 className="mb-3 bg-indigo-800 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 The arrive on Earth
               </h1>
-              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
+              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
                 It is known as the arrive on earth following some archeological
                 studies are from about 12000 years ago. First interactions with
                 man are from that period of time, many symbols in the caves
@@ -212,12 +212,12 @@ const Home = () => {
           </div>
         </section>
         <section>
-          <div className="grid grid-cols-2 gap-2 mt-[110px]">
+          <div className="grid grid-cols-2 gap-2 mt-[110px] items-center">
             <div className="flex flex-col">
               <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 Modern times
               </h1>
-              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
+              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl  text-base">
                 With the invention of internet, on some cospiracy forum,
                 sometime someone came out with a testimony of people telling
                 some cybernetic ants. But no one succeded to find the proofs,
@@ -240,7 +240,7 @@ const Home = () => {
               <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 Year 2130
               </h1>
-              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-lg">
+              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
                 In origin it was a very big massive explosion and following
                 other 50 nuclear explosions.
                 <br /> A chain of fallout destroyed a big part of mankind as we
