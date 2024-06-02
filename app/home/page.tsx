@@ -29,20 +29,20 @@ const Home = () => {
     <>
       <div className="smooth bg-[url('https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmTHopKcLJJQaBiDsGGzJ8uVgjpUpnMyb6PYoLMxd4Rrxj')]">
         <div
-          className={`classenav bg-transparent sticky flex justify-evenly  xl:text-xl md:text-xs items-center h-20 px-4 text-yellow-200 shadow-xl saliindex ${
+          className={`classenav bg-transparent sticky flex justify-evenly  xl:text-xl md:text-xs items-center h-20 px-4 text-black shadow-xl saliindex ${
             visible ? 'top-0' : ''
           } `}
         >
           {/* Logo */}
 
-          <h1 className="bg-indigo-300 rounded-full p-3 text-xl font-bold text-yellow-100 cursor-pointer">
+          <h1 className="bg-indigo-300 rounded-full p-3 text-xl font-bold text-black cursor-pointer">
             <a href="#home">Ants' Golden Age</a>
           </h1>
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex text-xl gap-4">
             <div className="bg-indigo-300 rounded-t-lg">
-              <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
+              <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-yellow-200">
                 <a href="#story">
                   <div className="flex flex-row">
                     <IoNewspaperOutline className="my-auto mr-1" />
@@ -52,12 +52,12 @@ const Home = () => {
               </li>
             </div>
             <div className="bg-indigo-300 rounded-t-lg">
-              <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
+              <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-yellow-200">
                 <a href="#about">About</a>
               </li>
             </div>
             <div className="bg-indigo-300 rounded-t-lg">
-              <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-white">
+              <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-yellow-200">
                 <a href="#whoweare">
                   <div className="flex flex-row">
                     <FaPeopleGroup className="my-auto mr-1" />
@@ -80,7 +80,7 @@ const Home = () => {
           {/* Mobile Navigation Icon */}
           <div
             onClick={handleNav}
-            className="block md:hidden text-yellow-100 bg-indigo-300 p-3 rounded-full"
+            className="block md:hidden text-black bg-indigo-300 p-3 rounded-full"
           >
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
           </div>
@@ -95,7 +95,7 @@ const Home = () => {
           >
             <h1
               onClick={handleNav}
-              className="w-fit p-4 text-3xl font-bold text-yellow-100 mx-auto rounded-full cursor-pointer bg-indigo-300"
+              className="w-fit p-4 text-3xl font-bold text-black mx-auto rounded-full cursor-pointer bg-indigo-300"
             >
               <a href="#home">A.G.A</a>
             </h1>
@@ -170,11 +170,11 @@ const Home = () => {
             <div className="lg:grid lg:grid-cols-2 flex flex-col">
               <div>
                 <Image
-                  src="https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmfM3RbnwJtXCcxjat627EDX4jppmWhMc1KwG9dMVQx1wo"
+                  src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmfM3RbnwJtXCcxjat627EDX4jppmWhMc1KwG9dMVQx1wo"
                   alt="pichome1"
                   width={400}
                   height={400}
-                  className="lg:ml-[25vh] lg:mt-[5vh] rounded-md"
+                  className="lg:ml-[25vh] lg:mt-[5vh] rounded-md mx-auto"
                 />
               </div>
               <div>
@@ -252,7 +252,7 @@ const Home = () => {
                   alt="pichome2"
                   width={250}
                   height={250}
-                  className="lg:ml-44 lg:mt-5 rounded-lg"
+                  className="lg:ml-44 lg:mt-5 rounded-lg mx-auto"
                 />
               </div>
             </div>
