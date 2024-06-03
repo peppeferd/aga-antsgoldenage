@@ -180,7 +180,7 @@ const Home = () => {
               complex and simple.
               <br /> Beetwen them the dinosaurs and then, the man on earth.
             </h1>
-            <div className="lg:grid lg:grid-cols-2 flex flex-col">
+            <div className="lg:grid lg:grid-cols-2 flex flex-col justify-evenly">
               <div>
                 <Image
                   src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmfM3RbnwJtXCcxjat627EDX4jppmWhMc1KwG9dMVQx1wo"
@@ -191,7 +191,7 @@ const Home = () => {
                 />
               </div>
               <div>
-                <h1 className="lg:mx-11 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl  text-base">
+                <h1 className="lg:mx-11 tracking-wide mt-[30px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl  text-base">
                   {' '}
                   The man with his arrogance put himself at the top of food
                   chain, dominating all other species and most of all,
@@ -231,7 +231,7 @@ const Home = () => {
             From them there are actually very few informations, most of
             documents are being secretated.
           </h1>
-          <div className="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col mb-2">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col justify-evenly mb-2">
             <div className="flex flex-col mt-3">
               <h1 className="mb-3 bg-indigo-800 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 The arrive on Earth
