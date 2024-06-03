@@ -174,8 +174,8 @@ section:nth-child(7) {
 .link-underline {
   border-bottom-width: 0;
   background-image: linear-gradient(transparent, transparent),
-    linear-gradient(#548b11, #548b11);
-  background-size: 0 3px;
+    linear-gradient(#71ab2a, #71ab2a);
+  background-size: 0 10px;
   background-position: 0 100%;
   background-repeat: no-repeat;
   transition: background-size 0.5s ease-in-out;
@@ -183,7 +183,7 @@ section:nth-child(7) {
 
 .link-underline-black {
   background-image: linear-gradient(transparent, transparent),
-    linear-gradient(#548b11, #548b11);
+    linear-gradient(#71ab2a, #71ab2a);
 }
 
 .link-underline:hover {
