@@ -250,8 +250,8 @@ const Home = () => {
                 <Image
                   src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmVrD5wiypAoRo9h2JHgLgn12HusLGAM7eXJYKnZzWTFJV"
                   alt="pichome2"
-                  width={250}
-                  height={250}
+                  width={230}
+                  height={230}
                   className="lg:ml-44 lg:mt-5 rounded-lg mx-auto"
                 />
               </div>
