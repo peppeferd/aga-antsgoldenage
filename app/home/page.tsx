@@ -10,6 +10,7 @@ import { IoNewspaperOutline } from 'react-icons/io5'
 import { FaPeopleGroup, FaDiscord } from 'react-icons/fa6'
 import { GiAnt } from 'react-icons/gi'
 import neutralizer from '../../public/NFT-PROJECT/Neutralizer.png'
+import defender from '../../public/NFT-PROJECT/Defender.png'
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
   const [nav, setNav] = useState(false)
@@ -329,7 +330,7 @@ const Home = () => {
           </div>
         </section>
         <section id="characters">
-          <div className="mt-[110px]">
+          <div className="mt-[150px]">
             <h1 className=" bg-indigo-800 text-2xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Characters
             </h1>
@@ -373,18 +374,41 @@ const Home = () => {
               </div>
               <div>
                 <h1 className="bg-yellow-200 text-indigo-800 w-fit mx-auto p-2 text-lg">
-                  Diggy Ant
+                  Defender Ant
                 </h1>
+                <Image
+                  src={defender}
+                  width={300}
+                  height={300}
+                  alt="neutralizer"
+                  className="mx-auto"
+                />
                 <h1 className="lg:mx-5 text-lg text-yellow-200 bg-indigo-800">
-                  Neutralizer Ant, the destructors, the killers. Many are the
-                  names which hover on this legendary figure. They are elite
-                  fighters, hybrids of excellence with extraordinary skills.
-                  Some of this Cyber-Ants got in equipment optical rays of
-                  impact kinetic energy, others got a high strength and fire
-                  power higher to fight every threats where Soldiers can't do
-                  anything. Their equipment is the most evolved in engineering
-                  terms regarding energy recharge and management.
+                  They are equipped with big artificial armors which generate
+                  energy shield protecting themselves. This armors, feeded from
+                  the computer network shared between the ants, are able to
+                  resist from strong hits and to deviate every attack received.
+                  The Defender Ants works as living shield for the allies,
+                  protecting them during the battles and reconnaissance
+                  missions. The power of this armor didn't come without a price:
+                  to master this advanced technology they had to go trough an
+                  hard and intense training.
                 </h1>
+                <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full">
+                  Stats
+                </h1>
+                <div className="flex flex-wrap justify-center gap-2">
+                  <div className="flex flex-col h-60">
+                    <h1 className="bg-yellow-200 text-black">Resilience</h1>
+                    <h1 className="bg-yellow-300 text-black">Strategy</h1>
+                    <h1 className="bg-yellow-400 text-black">Energy</h1>
+                  </div>
+                  <div className="flex flex-col h-60">
+                    <div className="bg-red-500 w-[170px]">85%</div>
+                    <div className="bg-blue-500 w-[180px]">90%</div>
+                    <div className="bg-green-500 w-[130px]">65%</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
