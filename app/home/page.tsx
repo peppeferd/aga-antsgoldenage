@@ -260,10 +260,10 @@ const Home = () => {
             <div className="flex flex-col mt-11">
               <div>
                 <Image
-                  src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmVrD5wiypAoRo9h2JHgLgn12HusLGAM7eXJYKnZzWTFJV"
+                  src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmW9qTuU6n1jModMxbMcCMYzBdkVuv5Z6nrdvLH1aD5eNo"
                   alt="pichome2"
-                  width={200}
-                  height={200}
+                  width={350}
+                  height={350}
                   className="lg:ml-44 lg:mt-5 rounded-lg mx-auto"
                 />
               </div>
