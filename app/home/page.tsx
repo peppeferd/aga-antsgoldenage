@@ -161,7 +161,7 @@ const Home = () => {
             <h1 className=" bg-indigo-800 text-2xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Story of A.G.A
             </h1>
-            <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
+            <h1 className="lg:mx-44 text-center tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
               It was 13,7 years ago when a massive explosion created the
               universe as we know it and with it billions of life beings, even
               complex and simple.
@@ -178,7 +178,7 @@ const Home = () => {
                 />
               </div>
               <div>
-                <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl  text-base">
+                <h1 className="lg:mx-11 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl  text-base">
                   {' '}
                   The man with his arrogance put himself at the top of food
                   chain, dominating all other species and most of all,
@@ -191,7 +191,7 @@ const Home = () => {
                   alien civilitation are of "Kind 1", "Kind 2", "Kind 3" and so
                   on.
                 </h1>{' '}
-                <h1 className="lg:mx-24 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
+                <h1 className="lg:mx-11 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
                   Kind 0: They are able to use only a fraction of the total
                   energy available on earth. Kind 1: Civilitation that is able
                   to utilize all energy available on their origin planet.
@@ -208,7 +208,7 @@ const Home = () => {
           </div>
         </section>
         <section>
-          <h1 className="lg:lg:mx-16 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
+          <h1 className="lg:mx-11 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
             The Cyber-Ants are a civilitation of "Kind 1", extremely more
             ancient and from even not-kwown origin, they have a system on
             evoltion extremely complex and low, but inexorably infallible.
@@ -223,7 +223,7 @@ const Home = () => {
               <h1 className="mb-3 bg-indigo-800 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 The arrive on Earth
               </h1>
-              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
+              <h1 className="lg:mx-11 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
                 It is known as the arrive on earth following some archeological
                 studies are from about 12000 years ago.
                 <br /> First interactions with man are from that period of time,
@@ -264,7 +264,7 @@ const Home = () => {
               <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 Modern times
               </h1>
-              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl  text-base">
+              <h1 className="lg:mx-11 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl  text-base">
                 With the invention of internet, on some cospiracy forum,
                 sometime someone came out with a testimony of people telling
                 some cybernetic ants.
@@ -288,7 +288,7 @@ const Home = () => {
               <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 Year 2130
               </h1>
-              <h1 className="lg:mx-16 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
+              <h1 className="lg:mx-11 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
                 In origin it was a very big massive explosion and following
                 other 50 nuclear explosions.
                 <br /> A chain of fallout destroyed a big part of mankind as we
