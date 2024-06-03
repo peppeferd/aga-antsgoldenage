@@ -219,7 +219,7 @@ const Home = () => {
             documents are being secretated.
           </h1>
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col mb-2">
-            <div className="flex flex-col mt-11">
+            <div className="flex flex-col mt-3">
               <h1 className="mb-3 bg-indigo-800 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 The arrive on Earth
               </h1>
