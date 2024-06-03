@@ -233,7 +233,6 @@ const Home = () => {
                 seemed it got some metallic parts integrated in its body, but
                 the ant were extremely more fast and succeded to not get traped.
                 In that period, doc.
-                <br />
                 <br /> Brown's scientists were more focalized on some insect
                 species in Arizona. He succeded to get other informations until
                 when, with a clever stratagem, he trapped one of these ants. It
