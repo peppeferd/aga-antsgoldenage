@@ -356,19 +356,25 @@ const Home = () => {
                   anything. Their equipment is the most evolved in engineering
                   terms regarding energy recharge and management.
                 </h1>
-                <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full">
+                <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full text-xl">
                   Stats
                 </h1>
                 <div className="flex flex-wrap justify-center gap-2">
                   <div className="flex flex-col h-60">
-                    <h1 className="bg-yellow-200 text-black">Resilience</h1>
-                    <h1 className="bg-yellow-300 text-black">Strategy</h1>
-                    <h1 className="bg-yellow-400 text-black">Energy</h1>
+                    <h1 className="bg-yellow-200 text-black rounded-t-lg text-xl">
+                      Resilience
+                    </h1>
+                    <h1 className="bg-yellow-300 text-black text-xl">
+                      Strategy
+                    </h1>
+                    <h1 className="bg-yellow-400 text-black rounded-b-lg text-xl">
+                      Energy
+                    </h1>
                   </div>
                   <div className="flex flex-col h-60">
-                    <div className="bg-red-500 w-[100px]">50%</div>
-                    <div className="bg-blue-500 w-[165px]">75%</div>
-                    <div className="bg-green-500 w-[200px]">100%</div>
+                    <div className="bg-red-500 w-[100px] text-xl">50%</div>
+                    <div className="bg-blue-500 w-[165px] text-xl">75%</div>
+                    <div className="bg-green-500 w-[200px] text-xl">100%</div>
                   </div>
                 </div>
               </div>
@@ -394,19 +400,25 @@ const Home = () => {
                   to master this advanced technology they had to go trough an
                   hard and intense training.
                 </h1>
-                <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full">
+                <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full  text-xl">
                   Stats
                 </h1>
-                <div className="flex flex-wrap justify-center gap-2">
+                <div className="flex flex-wrap justify-center gap-2 ">
                   <div className="flex flex-col h-60">
-                    <h1 className="bg-yellow-200 text-black">Resilience</h1>
-                    <h1 className="bg-yellow-300 text-black">Strategy</h1>
-                    <h1 className="bg-yellow-400 text-black">Energy</h1>
+                    <h1 className="bg-yellow-200 text-black rounded-t-lg text-xl">
+                      Resilience
+                    </h1>
+                    <h1 className="bg-yellow-300 text-black text-xl">
+                      Strategy
+                    </h1>
+                    <h1 className="bg-yellow-400 text-black rounded-b-lg text-xl">
+                      Energy
+                    </h1>
                   </div>
                   <div className="flex flex-col h-60">
-                    <div className="bg-red-500 w-[170px]">85%</div>
-                    <div className="bg-blue-500 w-[180px]">90%</div>
-                    <div className="bg-green-500 w-[130px]">65%</div>
+                    <div className="bg-red-500 w-[170px] text-xl">85%</div>
+                    <div className="bg-blue-500 w-[180px] text-xl">90%</div>
+                    <div className="bg-green-500 w-[130px] text-xl">65%</div>
                   </div>
                 </div>
               </div>
