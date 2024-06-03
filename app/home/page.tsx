@@ -8,6 +8,8 @@ import Image from 'next/image'
 import digitalcoachlogo from '../../public/Digitalcoach.webp'
 import { IoNewspaperOutline } from 'react-icons/io5'
 import { FaPeopleGroup, FaDiscord } from 'react-icons/fa6'
+import { GiAnt } from 'react-icons/gi'
+import neutralizer from '../../public/NFT-PROJECT/Neutralizer.png'
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
   const [nav, setNav] = useState(false)
@@ -27,7 +29,7 @@ const Home = () => {
     )
   return (
     <>
-      <div className="smooth bg-[url('https://tomato-impossible-lemur-706.mypinata.cloud/ipfs/QmTHopKcLJJQaBiDsGGzJ8uVgjpUpnMyb6PYoLMxd4Rrxj')]">
+      <div className="smooth">
         <div
           className={`classenav bg-transparent sticky flex justify-evenly  xl:text-xl md:text-xs items-center h-20 px-4 text-black shadow-xl saliindex ${
             visible ? 'top-0' : ''
@@ -53,7 +55,12 @@ const Home = () => {
             </div>
             <div className="bg-indigo-300 rounded-t-lg">
               <li className="flex flex-row cursor-pointer bg-transparent p-2 link link-underline link-underline-black hover:text-yellow-200">
-                <a href="#about">About</a>
+                <a href="#characters">
+                  <div className="flex flex-row">
+                    <GiAnt className="my-auto mr-1" />
+                    <h1>Characters</h1>
+                  </div>
+                </a>
               </li>
             </div>
             <div className="bg-indigo-300 rounded-t-lg">
@@ -70,7 +77,7 @@ const Home = () => {
               <li>
                 <a href="https://discord.com/" target="_blank">
                   <div>
-                    <FaDiscord size={30} className="mt-1" />
+                    <FaDiscord size={30} className="mt-1 p-1" />
                   </div>
                 </a>
               </li>
@@ -120,7 +127,12 @@ const Home = () => {
                 onClick={handleNav}
                 className=" flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
               >
-                <a href="#about">About</a>
+                <a href="#characters">
+                  <div className="flex flex-row">
+                    <GiAnt className="my-auto mr-1" />
+                    <h1>Characters</h1>
+                  </div>
+                </a>
               </li>
             </div>
             <div className="ml-4 mb-4 bg-indigo-300 w-fit rounded-full">
@@ -143,7 +155,7 @@ const Home = () => {
               >
                 <a href="https://discord.com/" target="_blank">
                   <div>
-                    <FaDiscord className="my-auto mr-1" />
+                    <FaDiscord className="my-auto" />
                   </div>
                 </a>
               </li>
@@ -249,8 +261,8 @@ const Home = () => {
                 <Image
                   src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmVrD5wiypAoRo9h2JHgLgn12HusLGAM7eXJYKnZzWTFJV"
                   alt="pichome2"
-                  width={230}
-                  height={230}
+                  width={200}
+                  height={200}
                   className="lg:ml-44 lg:mt-5 rounded-lg mx-auto"
                 />
               </div>
@@ -282,7 +294,7 @@ const Home = () => {
                 and earth. The comunication between the different presidents
                 were inexistent, it should had been final sentence.
               </h1>
-            </div>{' '}
+            </div>
             <div>
               <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
                 Year 2130
@@ -316,8 +328,66 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section id="about">
-          <h3 className="bg-yellow-200">About Section</h3>
+        <section id="characters">
+          <div className="mt-[110px]">
+            <h1 className=" bg-indigo-800 text-2xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
+              Characters
+            </h1>
+            <div className="lg:grid lg:grid-cols-2 flex flex-col text-center">
+              <div>
+                <h1 className="bg-yellow-200 text-indigo-800 w-fit mx-auto p-2 text-lg">
+                  Neutralizer Ant
+                </h1>
+                <Image
+                  src={neutralizer}
+                  width={300}
+                  height={300}
+                  alt="neutralizer"
+                  className="mx-auto"
+                />
+                <h1 className="lg:mx-5 text-lg text-yellow-200 bg-indigo-800">
+                  Neutralizer Ant, the destructors, the killers. Many are the
+                  names which hover on this legendary figure. They are elite
+                  fighters, hybrids of excellence with extraordinary skills.
+                  Some of this Cyber-Ants got in equipment optical rays of
+                  impact kinetic energy, others got a high strength and fire
+                  power higher to fight every threats where Soldiers can't do
+                  anything. Their equipment is the most evolved in engineering
+                  terms regarding energy recharge and management.
+                </h1>
+                <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full">
+                  Stats
+                </h1>
+                <div className="flex flex-wrap justify-center gap-2">
+                  <div className="flex flex-col h-60">
+                    <h1 className="bg-yellow-200 text-black">Resilience</h1>
+                    <h1 className="bg-yellow-300 text-black">Strategy</h1>
+                    <h1 className="bg-yellow-400 text-black">Energy</h1>
+                  </div>
+                  <div className="flex flex-col h-60">
+                    <div className="bg-red-500 w-[100px]">50%</div>
+                    <div className="bg-blue-500 w-[165px]">75%</div>
+                    <div className="bg-green-500 w-[200px]">100%</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h1 className="bg-yellow-200 text-indigo-800 w-fit mx-auto p-2 text-lg">
+                  Diggy Ant
+                </h1>
+                <h1 className="lg:mx-5 text-lg text-yellow-200 bg-indigo-800">
+                  Neutralizer Ant, the destructors, the killers. Many are the
+                  names which hover on this legendary figure. They are elite
+                  fighters, hybrids of excellence with extraordinary skills.
+                  Some of this Cyber-Ants got in equipment optical rays of
+                  impact kinetic energy, others got a high strength and fire
+                  power higher to fight every threats where Soldiers can't do
+                  anything. Their equipment is the most evolved in engineering
+                  terms regarding energy recharge and management.
+                </h1>
+              </div>
+            </div>
+          </div>
         </section>
         <section>
           <h3 className="bg-yellow-200">About Section</h3>
