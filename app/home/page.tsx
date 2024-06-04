@@ -330,7 +330,7 @@ const Home = () => {
           </div>
         </section>
         <section id="characters">
-          <div className="mt-[150px]">
+          <div className="mt-[170px]">
             <h1 className=" bg-indigo-800 text-2xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Characters
             </h1>
@@ -346,7 +346,7 @@ const Home = () => {
                   alt="neutralizer"
                   className="mx-auto"
                 />
-                <h1 className="lg:mx-3 px-2 text-lg text-yellow-200 bg-indigo-800">
+                <h1 className="lg:mx-2 px-2 text-base text-yellow-200 bg-indigo-800">
                   Neutralizer Ant, the destructors, the killers. Many are the
                   names which hover on this legendary figure. They are elite
                   fighters, hybrids of excellence with extraordinary skills.
@@ -389,7 +389,7 @@ const Home = () => {
                   alt="neutralizer"
                   className="mx-auto"
                 />
-                <h1 className="lg:mx-3 px-2 text-lg text-yellow-200 bg-indigo-800">
+                <h1 className="lg:mx-2 px-2 text-base text-yellow-200 bg-indigo-800">
                   They are equipped with big artificial armors which generate
                   energy shield protecting themselves. This armors, feeded from
                   the computer network shared between the ants, are able to
