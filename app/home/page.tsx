@@ -426,7 +426,9 @@ const Home = () => {
           </div>
         </section>
         <section>
-          <h3 className="bg-yellow-200">About Section</h3>
+          <div className="mt-[170px]">
+            <h3 className="bg-yellow-200">About Section</h3>
+          </div>
         </section>
         <section>
           <h3 className="bg-yellow-200">About Section</h3>
