@@ -164,12 +164,18 @@ const Home = () => {
           </ul>
         </div>
 
-        <section id="home">
+        <section
+          id="home"
+          className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
+        >
           <h3 className="bg-yellow-200 justify-center items-center w-fit mx-auto my-auto">
             Ants' Golden Age
           </h3>
         </section>
-        <section id="story">
+        <section
+          id="story"
+          className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
+        >
           <div className="flex flex-col mt-[110px]">
             <h1 className=" bg-indigo-800 text-2xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Story of A.G.A
@@ -220,7 +226,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]">
           <h1 className="lg:mx-11 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
             The Cyber-Ants are a civilitation of "Kind 1", extremely more
             ancient and from even not-kwown origin, they have a system on
@@ -270,7 +276,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]">
           <div className="grid grid-cols-2 gap-2 mt-[110px] items-center">
             <div className="flex flex-col">
               <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
@@ -329,7 +335,10 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section id="characters">
+        <section
+          id="characters"
+          className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
+        >
           <div className="mt-[170px]">
             <h1 className=" bg-indigo-800 text-2xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Characters
@@ -425,15 +434,18 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]">
           <div className="mt-[170px]">
             <h3 className="bg-yellow-200">About Section</h3>
           </div>
         </section>
-        <section>
+        <section className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]">
           <h3 className="bg-yellow-200">About Section</h3>
         </section>
-        <section id="whoweare">
+        <section
+          id="whoweare"
+          className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
+        >
           <div className="flex flex-col mt-[110px]">
             <h1 className=" bg-indigo-800 text-5xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Who we are
