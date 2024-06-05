@@ -171,19 +171,19 @@ const Home = () => {
           className="lg:bg-center bg-black bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
         ></section>
         <section id="story" className="bg-black">
-          <div className="flex flex-col mt-[100px]">
+          <div>
             <h1
-              className={` text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+              className={`mt-[100px] text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
               Story of A.G.A
             </h1>
-            <h1 className="lg:mx-44 text-center tracking-wide mt-[20px] text-white px-11 text-lg">
+            <h1 className="tracking-wide text-white text-lg text-center lg:px-24">
               It was 13,7 years ago when a massive explosion created the
               universe as we know it and with it billions of life beings, even
               complex and simple.
               <br /> Beetwen them the dinosaurs and then, the man on earth.
             </h1>
-            <div className="flex flex-wrap justify-around">
+            <div className="flex flex-wrap justify-around items-center">
               <div>
                 <Image
                   src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmfM3RbnwJtXCcxjat627EDX4jppmWhMc1KwG9dMVQx1wo"
@@ -192,9 +192,9 @@ const Home = () => {
                   height={400}
                   className="lg:ml-[25vh] lg:mt-[5vh] rounded-md "
                 />
-              </div>
+              </div>{' '}
               <div>
-                <h1 className="w-[700px] tracking-wide mt-[70px] pr-44 text-white  text-lg">
+                <h1 className="lg:w-[700px] text-lg">
                   {' '}
                   The man with his arrogance put himself at the top of food
                   chain, dominating all other species and most of all,
@@ -206,14 +206,15 @@ const Home = () => {
                   be classified as "Kind 0", and then all other more evolved
                   alien civilitation are of "Kind 1", "Kind 2", "Kind 3" and so
                   on.
-                </h1>{' '}
-              </div>
+                </h1>
+              </div>{' '}
             </div>
           </div>
         </section>
         <section className="bg-black">
-          <div className="flex flex-col mt-[100px]">
-            <h1 className="lg:mx-44 tracking-wide text-white px-11 text-lg">
+          <div>
+            {' '}
+            <h1 className="lg:px-24 tracking-wide text-white text-lg mt-[100px]">
               Kind 0: They are able to use only a fraction of the total energy
               available on earth.
               <br />
@@ -229,7 +230,7 @@ const Home = () => {
               ad identifier of their galaxy of origin, Orion.
               <br /> <br />
             </h1>{' '}
-            <h1 className="lg:mx-44 tracking-wide text-white px-11 mt-[50px] text-lg">
+            <h1 className="lg:px-24 tracking-wide text-white text-lg mt-[100px]">
               {' '}
               The Cyber-Ants are a civilitation of "Kind 1", extremely more
               ancient and from even not-kwown origin, they have a system on
@@ -246,17 +247,15 @@ const Home = () => {
           </div>
         </section>
         <section className="bg-black">
-          <div className="flex flex-col mt-[100px]">
+          <div>
             <h1
-              className={` text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+              className={`mt-[100px] text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
-              {' '}
               The arrive on Earth
             </h1>
-            <div className="flex flex-wrap  justify-around">
+            <div className="flex flex-wrap justify-around items-center">
               <div>
-                {' '}
-                <h1 className="w-[1000px] tracking-wide mt-[50px] px-44 text-white  text-lg">
+                <h1 className="lg:w-[700px] text-lg">
                   It is known as the arrive on earth following some
                   archeological studies are from about 12000 years ago.
                   <br /> First interactions with man are from that period of
@@ -278,7 +277,7 @@ const Home = () => {
                   and himself also. Of the ant it had not other informations
                   from then.
                 </h1>
-              </div>
+              </div>{' '}
               <div>
                 <Image
                   src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmW9qTuU6n1jModMxbMcCMYzBdkVuv5Z6nrdvLH1aD5eNo"
@@ -287,19 +286,18 @@ const Home = () => {
                   height={350}
                   className="lg:mr-[25vh] lg:mt-[5vh] rounded-md "
                 />
-              </div>
+              </div>{' '}
             </div>
           </div>
         </section>
         <section className="bg-black">
-          <div className="flex flex-col mt-[100px]">
+          <div>
             <h1
-              className={`text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+              className={`mt-[100px] text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
-              {' '}
-              Modern Times
-            </h1>{' '}
-            <div className="flex flex-wrap  justify-around">
+              Moder Times
+            </h1>
+            <div className="flex flex-wrap justify-around items-center">
               <div>
                 <Image
                   src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmW9qTuU6n1jModMxbMcCMYzBdkVuv5Z6nrdvLH1aD5eNo"
@@ -310,7 +308,7 @@ const Home = () => {
                 />
               </div>{' '}
               <div>
-                <h1 className="w-[1000px] tracking-wide mt-[50px] px-44 text-white  text-lg">
+                <h1 className="lg:w-[700px] text-lg">
                   With the invention of internet, on some cospiracy forum,
                   sometime someone came out with a testimony of people telling
                   some cybernetic ants.
@@ -329,19 +327,19 @@ const Home = () => {
                   and earth. The comunication between the different presidents
                   were inexistent, it should had been final sentence.
                 </h1>
-              </div>
+              </div>{' '}
             </div>
           </div>
         </section>
         <section className="bg-black">
-          <div className="flex flex-col mt-[100px]">
+          <div>
             <h1
-              className={` text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+              className={`mt-[100px] text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
-              {' '}
-              Year 2130
+              Moder Times
             </h1>
-            <h1 className="lg:mx-44 tracking-wide mt-[50px] text-white px-11 text-lg">
+            <h1 className="tracking-wide text-white text-lg lg:px-24 mt-[5vh]">
+              {' '}
               In origin it was a very big massive explosion and following other
               50 nuclear explosions.
               <br /> A chain of fallout destroyed a big part of mankind as we
@@ -362,8 +360,9 @@ const Home = () => {
               time of the Bible. <br />
               It was written in latin a description not so much accurate from a
               kind of ant with "iron plates and destructive powers", this
-              description anticipated the chapter on the apocalypse. The soldier
-              ant decided to take that proof and to take it to their superiors.
+              description anticipated the chapter on the apocalypse.
+              <br /> The soldier ant decided to take that proof and to take it
+              to their superiors.
             </h1>
           </div>
         </section>
