@@ -11,6 +11,7 @@ import { FaPeopleGroup, FaDiscord } from 'react-icons/fa6'
 import { GiAnt } from 'react-icons/gi'
 import neutralizer from '../../public/NFT-PROJECT/Neutralizer.png'
 import defender from '../../public/NFT-PROJECT/Defender.png'
+
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
   const [nav, setNav] = useState(false)
@@ -166,38 +167,35 @@ const Home = () => {
 
         <section
           id="home"
-          className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
+          className="lg:bg-center bg-black bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
         >
           <h3 className="bg-yellow-200 justify-center items-center w-fit mx-auto my-auto">
             Ants' Golden Age
           </h3>
         </section>
-        <section
-          id="story"
-          className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
-        >
-          <div className="flex flex-col mt-[110px]">
-            <h1 className=" bg-indigo-800 text-2xl text-yellow-200 p-2 rounded-full w-fit mx-auto">
+        <section id="story" className="bg-black">
+          <div className="flex flex-col mt-[100px]">
+            <h4 className="iltitolo bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full">
               Story of A.G.A
-            </h1>
-            <h1 className="lg:mx-44 text-center tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
+            </h4>
+            <h1 className="lg:mx-44 text-center tracking-wide mt-[20px] text-white px-11 text-xl">
               It was 13,7 years ago when a massive explosion created the
               universe as we know it and with it billions of life beings, even
               complex and simple.
               <br /> Beetwen them the dinosaurs and then, the man on earth.
             </h1>
-            <div className="lg:grid lg:grid-cols-2 flex flex-col justify-evenly">
+            <div className="flex flex-wrap justify-around">
               <div>
                 <Image
                   src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmfM3RbnwJtXCcxjat627EDX4jppmWhMc1KwG9dMVQx1wo"
                   alt="pichome1"
                   width={400}
                   height={400}
-                  className="lg:ml-[25vh] lg:mt-[5vh] rounded-md mx-auto"
+                  className="lg:ml-[25vh] lg:mt-[5vh] rounded-md "
                 />
               </div>
               <div>
-                <h1 className="lg:mx-11 tracking-wide mt-[30px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl  text-base">
+                <h1 className="w-[700px] tracking-wide mt-[70px] pr-44 text-white  text-xl">
                   {' '}
                   The man with his arrogance put himself at the top of food
                   chain, dominating all other species and most of all,
@@ -210,135 +208,156 @@ const Home = () => {
                   alien civilitation are of "Kind 1", "Kind 2", "Kind 3" and so
                   on.
                 </h1>{' '}
-                <h1 className="lg:mx-11 tracking-wide mt-[20px] bg-transparent text-indigo-800 bg-yellow-200 p-2 rounded-2xl text-base">
-                  Kind 0: They are able to use only a fraction of the total
-                  energy available on earth. Kind 1: Civilitation that is able
-                  to utilize all energy available on their origin planet.
-                  <br />
-                  <br /> Kind 2: Civilitation able to utilize all energy coming
-                  from the star on their planet system of origin Kind 3:
-                  Civilitation able to utilize all energy available on their
-                  galaxy Beetween the last there are the Cyber-Ants, known even
-                  with nomenclature "Formicidae Cyber Sapiens" or "C-A 42/1976"
-                  ad identifier of their galaxy of origin, Orion.
-                </h1>
               </div>
             </div>
           </div>
         </section>
-        <section className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]">
-          <h1 className="lg:mx-11 tracking-wide mt-[110px] bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
-            The Cyber-Ants are a civilitation of "Kind 1", extremely more
-            ancient and from even not-kwown origin, they have a system on
-            evoltion extremely complex and low, but inexorably infallible.
-            <br /> This peculiarity made them a very long-lived specie and with
-            some paranoic traits, just bacause of their way to lead and drive
-            their destiny based alwasy more on a dominant tecnology. <br />
-            From them there are actually very few informations, most of
-            documents are being secretated.
-          </h1>
-          <div className="lg:grid lg:grid-cols-2 lg:gap-2 flex flex-col justify-evenly mb-2">
-            <div className="flex flex-col mt-3">
-              <h1 className="mb-3 bg-indigo-800 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
-                The arrive on Earth
-              </h1>
-              <h1 className="lg:mx-11 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
-                It is known as the arrive on earth following some archeological
-                studies are from about 12000 years ago.
-                <br /> First interactions with man are from that period of time,
-                many symbols in the caves highlight some ants with a helmet.
-                <br /> From then the traces were lost until the first years of
-                1900. A biologist "Richard Brown" found a supernatural ant. It
-                seemed it got some metallic parts integrated in its body, but
-                the ant were extremely more fast and succeded to not get traped.
-                In that period, doc.
-                <br /> Brown's scientists were more focalized on some insect
-                species in Arizona. He succeded to get other informations until
-                when, with a clever stratagem, he trapped one of these ants. It
-                spent many months writing in his research diary. The ant seemed
-                to answer to human language with sending sounds, but it let
-                others understand clearly. <br />
-                Unlucky during an hot and muggy summer night, a big fire blazed
-                up in his home. All of his researches were destroyed and himself
-                also. Of the ant it had not other informations from then.
-              </h1>
-            </div>
-            <div className="flex flex-col mt-11">
+        <section className="bg-black">
+          <div className="flex flex-col mt-[100px]">
+            <h1 className="lg:mx-44 tracking-wide text-white px-11 text-xl">
+              Kind 0: They are able to use only a fraction of the total energy
+              available on earth.
+              <br />
+              <br /> Kind 1: Civilitation that is able to utilize all energy
+              available on their origin planet.
+              <br />
+              <br /> Kind 2: Civilitation able to utilize all energy coming from
+              the star on their planet system of origin
+              <br />
+              <br /> Kind 3: Civilitation able to utilize all energy available
+              on their galaxy Beetween the last there are the Cyber-Ants, known
+              even with nomenclature "Formicidae Cyber Sapiens" or "C-A 42/1976"
+              ad identifier of their galaxy of origin, Orion.
+              <br /> <br />
+            </h1>{' '}
+            <h1 className="lg:mx-44 tracking-wide text-white px-11 mt-[50px] text-xl">
+              {' '}
+              The Cyber-Ants are a civilitation of "Kind 1", extremely more
+              ancient and from even not-kwown origin, they have a system on
+              evoltion extremely complex and low, but inexorably infallible.
+              <br /> This peculiarity made them a very long-lived specie and
+              with some paranoic traits, just bacause of their way to lead and
+              drive their destiny based alwasy more on a dominant tecnology.{' '}
+              <br />
+              From them there are actually very few informations, most of
+              documents are being secretated.
+            </h1>{' '}
+          </div>
+        </section>
+        <section className="bg-black">
+          <div className="flex flex-col mt-[100px]">
+            <h1 className=" bg-indigo-800 text-4xl text-yellow-500 font-extrabold p-2 w-fit mx-auto rounded-full">
+              The arrive on Earth
+            </h1>
+            <div className="flex flex-wrap  justify-around">
+              <div>
+                {' '}
+                <h1 className="w-[1000px] tracking-wide mt-[50px] pl-44 text-white  text-xl">
+                  It is known as the arrive on earth following some
+                  archeological studies are from about 12000 years ago.
+                  <br /> First interactions with man are from that period of
+                  time, many symbols in the caves highlight some ants with a
+                  helmet.
+                  <br /> From then the traces were lost until the first years of
+                  1900. A biologist "Richard Brown" found a supernatural ant. It
+                  seemed it got some metallic parts integrated in its body, but
+                  the ant were extremely more fast and succeded to not get
+                  traped. In that period, doc.
+                  <br /> Brown's scientists were more focalized on some insect
+                  species in Arizona. He succeded to get other informations
+                  until when, with a clever stratagem, he trapped one of these
+                  ants. It spent many months writing in his research diary. The
+                  ant seemed to answer to human language with sending sounds,
+                  but it let others understand clearly. <br />
+                  Unlucky during an hot and muggy summer night, a big fire
+                  blazed up in his home. All of his researches were destroyed
+                  and himself also. Of the ant it had not other informations
+                  from then.
+                </h1>
+              </div>
               <div>
                 <Image
                   src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmW9qTuU6n1jModMxbMcCMYzBdkVuv5Z6nrdvLH1aD5eNo"
                   alt="pichome2"
                   width={350}
                   height={350}
-                  className="lg:ml-44 lg:mt-5 rounded-lg mx-auto"
+                  className="lg:mr-[25vh] lg:mt-[5vh] rounded-md "
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]">
-          <div className="grid grid-cols-2 gap-2 mt-[110px] items-center">
-            <div className="flex flex-col">
-              <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
-                Modern times
-              </h1>
-              <h1 className="lg:mx-11 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl  text-base">
-                With the invention of internet, on some cospiracy forum,
-                sometime someone came out with a testimony of people telling
-                some cybernetic ants.
-                <br /> But no one succeded to find the proofs, every trying to
-                make photos was unfocused o disturbed by frequencies. So this
-                persons' reliability was equal to zero. With the world evolving
-                and developing itself, the tensions between the different
-                cultures went increasing.
-                <br /> The pollution were always more present in everyday life,
-                the geopolitical assets were totally unstable, continue wars,
-                too much consumisn, the planet seemed to suffer. <br />
-                After pandemic of coronavirus, mankind seemed going on the right
-                path, but it was just an illusion lasted a decade.
-                <br /> The war restarted and every nation made their own
-                interest, don't taking care of negative effectives on climate
-                and earth. The comunication between the different presidents
-                were inexistent, it should had been final sentence.
-              </h1>
-            </div>
-            <div>
-              <h1 className=" bg-indigo-800 mb-3 text-2xl text-yellow-200 p-1 rounded-lg w-fit mx-auto">
-                Year 2130
-              </h1>
-              <h1 className="lg:mx-11 tracking-wide bg-transparent text-indigo-800 bg-yellow-200 p-1 rounded-2xl text-base">
-                In origin it was a very big massive explosion and following
-                other 50 nuclear explosions.
-                <br /> A chain of fallout destroyed a big part of mankind as we
-                known it. <br />
-                The human population were literally decreased from an half, most
-                rich nations became poor, while poor nations seemed to have a
-                more fast recovery.
-                <br /> Everything started with a little female children living
-                in a no more prosperus land that were playing with a paper
-                airplane.
-                <br /> Running she falled down and the airplane flyed away from
-                her hands arriving in a valley. <br />
-                <br />
-                The airplane touched the ground, and between the rocks' shadow
-                it camed up a cybernetic ant with was wearing an armor and was
-                equipped with a plasma rifle, the ant noticed the airplane.
-                <br /> Together with its team, they opened their wings and
-                opened up the airplane. It was a page from an holy book, dating
-                from the time of the Bible. <br />
-                It was written in latin a description not so much accurate from
-                a kind of ant with "iron plates and destructive powers", this
-                description anticipated the chapter on the apocalypse. The
-                soldier ant decided to take that proof and to take it to their
-                superiors.
-              </h1>
+        <section className="bg-black">
+          <div className="flex flex-col mt-[100px]">
+            <h1 className=" bg-indigo-800 text-4xl text-yellow-500 font-extrabold p-2 w-fit mx-auto rounded-full">
+              Modern Times
+            </h1>{' '}
+            <div className="flex flex-wrap  justify-around">
+              <div>
+                <Image
+                  src="https://tan-top-hummingbird-696.mypinata.cloud/ipfs/QmW9qTuU6n1jModMxbMcCMYzBdkVuv5Z6nrdvLH1aD5eNo"
+                  alt="pichome2"
+                  width={350}
+                  height={350}
+                  className="lg:ml-[25vh] lg:mt-[9vh] rounded-md "
+                />
+              </div>{' '}
+              <div>
+                <h1 className="w-[1000px] tracking-wide mt-[50px] pr-44 text-white  text-xl">
+                  With the invention of internet, on some cospiracy forum,
+                  sometime someone came out with a testimony of people telling
+                  some cybernetic ants.
+                  <br /> But no one succeded to find the proofs, every trying to
+                  make photos was unfocused o disturbed by frequencies. So this
+                  persons' reliability was equal to zero. With the world
+                  evolving and developing itself, the tensions between the
+                  different cultures went increasing.
+                  <br /> The pollution were always more present in everyday
+                  life, the geopolitical assets were totally unstable, continue
+                  wars, too much consumisn, the planet seemed to suffer. <br />
+                  After pandemic of coronavirus, mankind seemed going on the
+                  right path, but it was just an illusion lasted a decade.
+                  <br /> The war restarted and every nation made their own
+                  interest, don't taking care of negative effectives on climate
+                  and earth. The comunication between the different presidents
+                  were inexistent, it should had been final sentence.
+                </h1>
+              </div>
             </div>
           </div>
         </section>
-        <section
-          id="characters"
-          className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
-        >
+        <section className="bg-black">
+          <div className="flex flex-col mt-[100px]">
+            <h1 className=" bg-indigo-800 text-4xl text-yellow-500 font-extrabold p-2 w-fit mx-auto rounded-full">
+              Year 2130
+            </h1>
+            <h1 className="lg:mx-44 tracking-wide mt-[50px] text-white px-11 text-xl">
+              In origin it was a very big massive explosion and following other
+              50 nuclear explosions.
+              <br /> A chain of fallout destroyed a big part of mankind as we
+              known it. <br />
+              The human population were literally decreased from an half, most
+              rich nations became poor, while poor nations seemed to have a more
+              fast recovery.
+              <br /> Everything started with a little female children living in
+              a no more prosperus land that were playing with a paper airplane.
+              <br /> Running she falled down and the airplane flyed away from
+              her hands arriving in a valley. <br />
+              <br />
+              The airplane touched the ground, and between the rocks' shadow it
+              camed up a cybernetic ant with was wearing an armor and was
+              equipped with a plasma rifle, the ant noticed the airplane.
+              <br /> Together with its team, they opened their wings and opened
+              up the airplane. It was a page from an holy book, dating from the
+              time of the Bible. <br />
+              It was written in latin a description not so much accurate from a
+              kind of ant with "iron plates and destructive powers", this
+              description anticipated the chapter on the apocalypse. The soldier
+              ant decided to take that proof and to take it to their superiors.
+            </h1>
+          </div>
+        </section>
+        <section id="characters" className="bg-black">
           <div className="mt-[170px]">
             <h1 className=" bg-indigo-800 text-2xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Characters
@@ -434,18 +453,15 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]">
+        <section className="bg-black">
           <div className="mt-[170px]">
             <h3 className="bg-yellow-200">About Section</h3>
           </div>
         </section>
-        <section className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]">
+        <section className="bg-black">
           <h3 className="bg-yellow-200">About Section</h3>
         </section>
-        <section
-          id="whoweare"
-          className="bg-center bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
-        >
+        <section id="whoweare" className="bg-black">
           <div className="flex flex-col mt-[110px]">
             <h1 className=" bg-indigo-800 text-5xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
               Who we are
