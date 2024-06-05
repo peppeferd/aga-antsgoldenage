@@ -56,13 +56,13 @@ const Neutralizer = () => {
           Stats
         </h1>
         <div className="container text-left">
-          <div className="bar learning" data-skill="Resilience: 50%"></div>
-          <div className="bar back basic" data-skill="Strategy: 75%"></div>
+          <div className="bar learning1" data-skill="Resilience: 50%"></div>
+          <div className="bar back basic1" data-skill="Strategy: 75%"></div>
           <div
-            className="bar back intermediate"
+            className="bar back intermediate1"
             data-skill="Energy: 100%"
           ></div>
-          <div className="bar front advanced" data-skill="EVO"></div>
+          <div className="bar front advanced1" data-skill="EVO"></div>
         </div>
       </div>
     </div>
