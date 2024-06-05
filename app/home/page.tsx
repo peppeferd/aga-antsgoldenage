@@ -173,7 +173,7 @@ const Home = () => {
         <section id="story" className="bg-black">
           <div className="flex flex-col mt-[100px]">
             <h1
-              className={`bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+              className={` text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
               Story of A.G.A
             </h1>
@@ -234,9 +234,11 @@ const Home = () => {
               The Cyber-Ants are a civilitation of "Kind 1", extremely more
               ancient and from even not-kwown origin, they have a system on
               evoltion extremely complex and low, but inexorably infallible.
+              <br />
               <br /> This peculiarity made them a very long-lived specie and
               with some paranoic traits, just bacause of their way to lead and
               drive their destiny based alwasy more on a dominant tecnology.{' '}
+              <br />
               <br />
               From them there are actually very few informations, most of
               documents are being secretated.
@@ -246,7 +248,7 @@ const Home = () => {
         <section className="bg-black">
           <div className="flex flex-col mt-[100px]">
             <h1
-              className={`bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+              className={` text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
               {' '}
               The arrive on Earth
@@ -292,7 +294,7 @@ const Home = () => {
         <section className="bg-black">
           <div className="flex flex-col mt-[100px]">
             <h1
-              className={`bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+              className={`text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
               {' '}
               Modern Times
@@ -334,7 +336,7 @@ const Home = () => {
         <section className="bg-black">
           <div className="flex flex-col mt-[100px]">
             <h1
-              className={`bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+              className={` text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
               {' '}
               Year 2130
