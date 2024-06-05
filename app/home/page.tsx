@@ -255,7 +255,7 @@ const Home = () => {
             </h1>
             <div className="flex flex-wrap justify-around items-center">
               <div>
-                <h1 className="lg:w-[700px] text-lg">
+                <h1 className="lg:w-[700px] text-lg lg:px-20">
                   It is known as the arrive on earth following some
                   archeological studies are from about 12000 years ago.
                   <br /> First interactions with man are from that period of
@@ -308,7 +308,7 @@ const Home = () => {
                 />
               </div>{' '}
               <div>
-                <h1 className="lg:w-[700px] text-lg">
+                <h1 className="lg:w-[700px] text-lg lg:px-20">
                   With the invention of internet, on some cospiracy forum,
                   sometime someone came out with a testimony of people telling
                   some cybernetic ants.
