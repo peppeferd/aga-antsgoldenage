@@ -11,7 +11,8 @@ import { FaPeopleGroup, FaDiscord } from 'react-icons/fa6'
 import { GiAnt } from 'react-icons/gi'
 import neutralizer from '../../public/NFT-PROJECT/Neutralizer.png'
 import defender from '../../public/NFT-PROJECT/Defender.png'
-
+import { Shojumaru as Dancing_Script } from 'next/font/google'
+const dancingScript = Dancing_Script({ subsets: ['latin'], weight: ['400'] })
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
   const [nav, setNav] = useState(false)
@@ -168,17 +169,15 @@ const Home = () => {
         <section
           id="home"
           className="lg:bg-center bg-black bg-[url('https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi')]"
-        >
-          <h3 className="bg-yellow-200 justify-center items-center w-fit mx-auto my-auto">
-            Ants' Golden Age
-          </h3>
-        </section>
+        ></section>
         <section id="story" className="bg-black">
           <div className="flex flex-col mt-[100px]">
-            <h4 className="iltitolo bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full">
+            <h1
+              className={`bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+            >
               Story of A.G.A
-            </h4>
-            <h1 className="lg:mx-44 text-center tracking-wide mt-[20px] text-white px-11 text-xl">
+            </h1>
+            <h1 className="lg:mx-44 text-center tracking-wide mt-[20px] text-white px-11 text-lg">
               It was 13,7 years ago when a massive explosion created the
               universe as we know it and with it billions of life beings, even
               complex and simple.
@@ -195,7 +194,7 @@ const Home = () => {
                 />
               </div>
               <div>
-                <h1 className="w-[700px] tracking-wide mt-[70px] pr-44 text-white  text-xl">
+                <h1 className="w-[700px] tracking-wide mt-[70px] pr-44 text-white  text-lg">
                   {' '}
                   The man with his arrogance put himself at the top of food
                   chain, dominating all other species and most of all,
@@ -214,7 +213,7 @@ const Home = () => {
         </section>
         <section className="bg-black">
           <div className="flex flex-col mt-[100px]">
-            <h1 className="lg:mx-44 tracking-wide text-white px-11 text-xl">
+            <h1 className="lg:mx-44 tracking-wide text-white px-11 text-lg">
               Kind 0: They are able to use only a fraction of the total energy
               available on earth.
               <br />
@@ -230,7 +229,7 @@ const Home = () => {
               ad identifier of their galaxy of origin, Orion.
               <br /> <br />
             </h1>{' '}
-            <h1 className="lg:mx-44 tracking-wide text-white px-11 mt-[50px] text-xl">
+            <h1 className="lg:mx-44 tracking-wide text-white px-11 mt-[50px] text-lg">
               {' '}
               The Cyber-Ants are a civilitation of "Kind 1", extremely more
               ancient and from even not-kwown origin, they have a system on
@@ -246,13 +245,16 @@ const Home = () => {
         </section>
         <section className="bg-black">
           <div className="flex flex-col mt-[100px]">
-            <h1 className=" bg-indigo-800 text-4xl text-yellow-500 font-extrabold p-2 w-fit mx-auto rounded-full">
+            <h1
+              className={`bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+            >
+              {' '}
               The arrive on Earth
             </h1>
             <div className="flex flex-wrap  justify-around">
               <div>
                 {' '}
-                <h1 className="w-[1000px] tracking-wide mt-[50px] pl-44 text-white  text-xl">
+                <h1 className="w-[1000px] tracking-wide mt-[50px] px-44 text-white  text-lg">
                   It is known as the arrive on earth following some
                   archeological studies are from about 12000 years ago.
                   <br /> First interactions with man are from that period of
@@ -289,7 +291,10 @@ const Home = () => {
         </section>
         <section className="bg-black">
           <div className="flex flex-col mt-[100px]">
-            <h1 className=" bg-indigo-800 text-4xl text-yellow-500 font-extrabold p-2 w-fit mx-auto rounded-full">
+            <h1
+              className={`bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+            >
+              {' '}
               Modern Times
             </h1>{' '}
             <div className="flex flex-wrap  justify-around">
@@ -303,7 +308,7 @@ const Home = () => {
                 />
               </div>{' '}
               <div>
-                <h1 className="w-[1000px] tracking-wide mt-[50px] pr-44 text-white  text-xl">
+                <h1 className="w-[1000px] tracking-wide mt-[50px] px-44 text-white  text-lg">
                   With the invention of internet, on some cospiracy forum,
                   sometime someone came out with a testimony of people telling
                   some cybernetic ants.
@@ -328,10 +333,13 @@ const Home = () => {
         </section>
         <section className="bg-black">
           <div className="flex flex-col mt-[100px]">
-            <h1 className=" bg-indigo-800 text-4xl text-yellow-500 font-extrabold p-2 w-fit mx-auto rounded-full">
+            <h1
+              className={`bg-indigo-800 text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
+            >
+              {' '}
               Year 2130
             </h1>
-            <h1 className="lg:mx-44 tracking-wide mt-[50px] text-white px-11 text-xl">
+            <h1 className="lg:mx-44 tracking-wide mt-[50px] text-white px-11 text-lg">
               In origin it was a very big massive explosion and following other
               50 nuclear explosions.
               <br /> A chain of fallout destroyed a big part of mankind as we

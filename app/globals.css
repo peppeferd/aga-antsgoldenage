@@ -15,30 +15,11 @@ body {
   height: 100vh;
   flex-direction: column;
   line-height: 1.5;
-  font-size: 62.5%;
+  font-family: 'Festive', cursive !important;
   color: #f4f4f4;
   background-color: #1d1e22;
 }
-h1 {
-  font-family: 'Festive', cursive !important;
-}
-.scrolls {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 1.25em;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 2rem;
-  color: #f4f4f4;
-}
-.scrolls .center {
-  font-size: 0.825rem;
-}
+
 .smooth {
   position: relative;
   width: 100%;
@@ -49,125 +30,18 @@ h1 {
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
 }
-.header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  display: flex;
-  width: 100%;
-  min-height: 60px;
-  font-size: 1rem;
-  background-image: linear-gradient(
-    180deg,
-    #1d1e22,
-    rgba(29, 30, 34, 0.1),
-    transparent
-  );
-  mix-blend-mode: luminosity;
-}
-.header ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-.header ul li {
-  margin: 0 1em;
-  padding: 1em;
-}
-.header ul li a {
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: #f4f4f4;
-}
-.header ul li a::after {
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  content: '';
-  width: 0;
-  height: 3px;
-  transition: all 0.2s linear;
-}
-.header ul li a:hover::after {
-  width: 100%;
-  background-color: #f4f4f4;
-}
 section {
   position: relative;
   display: flex;
   width: 100%;
   min-height: 100vh;
   flex-flow: column wrap;
-  /*   background-position-y: 50%;
- */
-  font-size: 1rem;
+
   background-color: #f4f4f4;
   background-size: cover;
   scroll-snap-align: center;
 }
-section h3 {
-  text-transform: uppercase;
-  font-size: 3.25rem;
-  font-weight: 900;
-  padding: 0.5em 1em;
-  color: #1d1e22;
-  /*  background-color: #f4f4f4; */
-  mix-blend-mode: screen;
-  border-radius: 0.25em;
-  pointer-events: none;
-  user-select: none;
-}
-/* section:nth-child(2) {
-  background-position-y: 50%;
-}
-section:nth-child(3) {
-  background-position-y: 50%;
-}
-section:nth-child(4) {
-  background-position-y: 50%;
-}
 
-section:nth-child(5) {
-  background-position-y: 50%;
-
-  background-image: url(https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi);
-}
-section:nth-child(6) {
-  background-position-y: 57%;
-
-  background-image: url(https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi);
-}
-section:nth-child(7) {
-  background-position-y: 43%;
-
-  background-image: url(https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi);
-}
-section:nth-child(8) {
-  background-position-y: 50%;
-
-  background-image: url(https://turquoise-elderly-bee-562.mypinata.cloud/ipfs/QmTQY5Ffz5rELs2gP8nQr5xF9mz7ugBr5E1LY6xg68ftTi);
-} */
-.social {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: red;
-  font-family: verdana;
-  padding: 5px;
-  border-radius: 5px;
-  animation: new 0.5s linear infinite;
-  margin-top: -50px;
-}
-.social a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-}
 @keyframes new {
   0% {
     transform: scaleX(1);
@@ -209,10 +83,4 @@ section:nth-child(8) {
   top: 0px;
   right: 0px;
   left: 0px;
-}
-
-.iltitolo {
-  font-family: 'Bungee Inline', sans-serif !important;
-  font-weight: 400;
-  font-style: normal;
 }
