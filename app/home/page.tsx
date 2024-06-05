@@ -336,7 +336,7 @@ const Home = () => {
             <h1
               className={`mt-[100px] text-4xl text-yellow-500 p-2 w-fit mx-auto rounded-full ${dancingScript.className}`}
             >
-              Moder Times
+              Year 2130
             </h1>
             <h1 className="tracking-wide text-white text-lg lg:px-24 mt-[5vh]">
               {' '}
