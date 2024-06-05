@@ -9,15 +9,19 @@ import digitalcoachlogo from '../../public/Digitalcoach.webp'
 import { IoNewspaperOutline } from 'react-icons/io5'
 import { FaPeopleGroup, FaDiscord } from 'react-icons/fa6'
 import { GiAnt } from 'react-icons/gi'
-import neutralizer from '../../public/NFT-PROJECT/Neutralizer.png'
-import defender from '../../public/NFT-PROJECT/Defender.png'
-import { Shojumaru as Dancing_Script } from 'next/font/google'
-const dancingScript = Dancing_Script({ subsets: ['latin'], weight: ['400'] })
+import { SiOpensea } from 'react-icons/si'
+import { Shojumaru } from 'next/font/google'
+import { Cute_Font } from 'next/font/google'
+import Neutralizer from '@/components/characters/Neutralizer'
+import Defender from '@/components/characters/Defender'
+
+const dancingScript = Shojumaru({ subsets: ['latin'], weight: ['400'] })
+const secondFont = Cute_Font({ subsets: ['latin'], weight: ['400'] })
 const Home = () => {
   const [isClient, setIsClient] = useState(false)
   const [nav, setNav] = useState(false)
   const [visible, setVisible] = useState(true)
-  const router = useRouter()
+
   const handleNav = () => {
     setNav(!nav)
   }
@@ -81,6 +85,15 @@ const Home = () => {
                 <a href="https://discord.com/" target="_blank">
                   <div>
                     <FaDiscord size={30} className="mt-1 p-1" />
+                  </div>
+                </a>
+              </li>
+            </div>
+            <div className="bg-indigo-300 rounded-full p-1">
+              <li>
+                <a href="https://opensea.io/" target="_blank">
+                  <div>
+                    <SiOpensea size={30} className="mt-1 p-1" />
                   </div>
                 </a>
               </li>
@@ -159,6 +172,18 @@ const Home = () => {
                 <a href="https://discord.com/" target="_blank">
                   <div>
                     <FaDiscord className="my-auto" />
+                  </div>
+                </a>
+              </li>
+            </div>
+            <div className="ml-4 mb-4 bg-indigo-300 w-fit rounded-full">
+              <li
+                onClick={handleNav}
+                className=" flex flex-row cursor-pointer bg-transparent p-2 hover:underline hover:bg-gray-300 hover:p-2 hover:rounded-full hover:text-green-600 w-fit"
+              >
+                <a href="https://opensea.io/" target="_blank">
+                  <div>
+                    <SiOpensea className="my-auto" />
                   </div>
                 </a>
               </li>
@@ -367,97 +392,18 @@ const Home = () => {
           </div>
         </section>
         <section id="characters" className="bg-black">
-          <div className="mt-[170px]">
-            <h1 className=" bg-indigo-800 text-2xl mb-10 text-yellow-200 p-2 rounded-full w-fit mx-auto">
+          <div className="mt-[100px]">
+            <h1
+              className={`text-6xl mb-10 text-yellow-500 p-2 rounded-full w-fit mx-auto ${secondFont.className}`}
+            >
               Characters
             </h1>
             <div className="lg:grid lg:grid-cols-2 flex flex-col text-center">
               <div>
-                <h1 className="bg-yellow-200 text-indigo-800 w-fit mx-auto p-2 text-lg">
-                  Neutralizer Ant
-                </h1>
-                <Image
-                  src={neutralizer}
-                  width={300}
-                  height={300}
-                  alt="neutralizer"
-                  className="mx-auto"
-                />
-                <h1 className="lg:mx-2 px-2 text-base text-yellow-200 bg-indigo-800 rounded-lg">
-                  Neutralizer Ant, the destructors, the killers. Many are the
-                  names which hover on this legendary figure. They are elite
-                  fighters, hybrids of excellence with extraordinary skills.
-                  Some of this Cyber-Ants got in equipment optical rays of
-                  impact kinetic energy, others got a high strength and fire
-                  power higher to fight every threats where Soldiers can't do
-                  anything. Their equipment is the most evolved in engineering
-                  terms regarding energy recharge and management.
-                </h1>
-                <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full text-xl">
-                  Stats
-                </h1>
-                <div className="flex flex-wrap justify-center gap-2">
-                  <div className="flex flex-col h-60">
-                    <h1 className="bg-yellow-200 text-black rounded-t-lg text-xl">
-                      Resilience
-                    </h1>
-                    <h1 className="bg-yellow-300 text-black text-xl">
-                      Strategy
-                    </h1>
-                    <h1 className="bg-yellow-400 text-black rounded-b-lg text-xl">
-                      Energy
-                    </h1>
-                  </div>
-                  <div className="flex flex-col h-60">
-                    <div className="bg-red-500 w-[100px] text-xl">50%</div>
-                    <div className="bg-blue-500 w-[165px] text-xl">75%</div>
-                    <div className="bg-green-500 w-[200px] text-xl">100%</div>
-                  </div>
-                </div>
+                <Neutralizer />
               </div>
               <div>
-                <h1 className="bg-yellow-200 text-indigo-800 w-fit mx-auto p-2 text-lg">
-                  Defender Ant
-                </h1>
-                <Image
-                  src={defender}
-                  width={300}
-                  height={300}
-                  alt="neutralizer"
-                  className="mx-auto"
-                />
-                <h1 className="lg:mx-2 px-2 text-base text-yellow-200 bg-indigo-800 rounded-lg">
-                  They are equipped with big artificial armors which generate
-                  energy shield protecting themselves. This armors, feeded from
-                  the computer network shared between the ants, are able to
-                  resist from strong hits and to deviate every attack received.
-                  The Defender Ants works as living shield for the allies,
-                  protecting them during the battles and reconnaissance
-                  missions. The power of this armor didn't come without a price:
-                  to master this advanced technology they had to go trough an
-                  hard and intense training.
-                </h1>
-                <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full  text-xl">
-                  Stats
-                </h1>
-                <div className="flex flex-wrap justify-center gap-2 ">
-                  <div className="flex flex-col h-60">
-                    <h1 className="bg-yellow-200 text-black rounded-t-lg text-xl">
-                      Resilience
-                    </h1>
-                    <h1 className="bg-yellow-300 text-black text-xl">
-                      Strategy
-                    </h1>
-                    <h1 className="bg-yellow-400 text-black rounded-b-lg text-xl">
-                      Energy
-                    </h1>
-                  </div>
-                  <div className="flex flex-col h-60">
-                    <div className="bg-red-500 w-[170px] text-xl">85%</div>
-                    <div className="bg-blue-500 w-[180px] text-xl">90%</div>
-                    <div className="bg-green-500 w-[130px] text-xl">65%</div>
-                  </div>
-                </div>
+                <Defender />
               </div>
             </div>
           </div>
