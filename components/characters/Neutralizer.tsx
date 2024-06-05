@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Modal } from 'antd'
 import Image from 'next/image'
+import './neutralizer.css'
 import neutralizer from '../../public/NFT-PROJECT/Neutralizer.png'
 const Neutralizer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -54,21 +55,14 @@ const Neutralizer = () => {
         <h1 className="bg-yellow-200 text-black w-fit mx-auto mt-2 mb-2 p-2 rounded-full text-xl">
           Stats
         </h1>
-        <div className="flex flex-wrap justify-center gap-2">
-          <div className="flex flex-col h-60">
-            <h1 className="bg-yellow-200 text-black rounded-t-lg text-xl">
-              Resilience
-            </h1>
-            <h1 className="bg-yellow-300 text-black text-xl">Strategy</h1>
-            <h1 className="bg-yellow-400 text-black rounded-b-lg text-xl">
-              Energy
-            </h1>
-          </div>
-          <div className="flex flex-col h-60">
-            <div className="bg-red-500 w-[100px] text-xl">50%</div>
-            <div className="bg-blue-500 w-[165px] text-xl">75%</div>
-            <div className="bg-green-500 w-[200px] text-xl">100%</div>
-          </div>
+        <div className="container text-left">
+          <div className="bar learning" data-skill="Resilience: 50%"></div>
+          <div className="bar back basic" data-skill="Strategy: 75%"></div>
+          <div
+            className="bar back intermediate"
+            data-skill="Energy: 100%"
+          ></div>
+          <div className="bar front advanced" data-skill="EVO"></div>
         </div>
       </div>
     </div>
